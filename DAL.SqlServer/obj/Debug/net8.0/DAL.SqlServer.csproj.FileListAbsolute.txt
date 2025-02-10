@@ -1,0 +1,11 @@
+C:\Users\Husey_ij91\source\repos\RestaurantManagement\DAL.SqlServer\bin\Debug\net8.0\DAL.SqlServer.deps.json
+C:\Users\Husey_ij91\source\repos\RestaurantManagement\DAL.SqlServer\bin\Debug\net8.0\DAL.SqlServer.dll
+C:\Users\Husey_ij91\source\repos\RestaurantManagement\DAL.SqlServer\bin\Debug\net8.0\DAL.SqlServer.pdb
+C:\Users\Husey_ij91\source\repos\RestaurantManagement\DAL.SqlServer\obj\Debug\net8.0\DAL.SqlServer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Husey_ij91\source\repos\RestaurantManagement\DAL.SqlServer\obj\Debug\net8.0\DAL.SqlServer.AssemblyInfoInputs.cache
+C:\Users\Husey_ij91\source\repos\RestaurantManagement\DAL.SqlServer\obj\Debug\net8.0\DAL.SqlServer.AssemblyInfo.cs
+C:\Users\Husey_ij91\source\repos\RestaurantManagement\DAL.SqlServer\obj\Debug\net8.0\DAL.SqlServer.csproj.CoreCompileInputs.cache
+C:\Users\Husey_ij91\source\repos\RestaurantManagement\DAL.SqlServer\obj\Debug\net8.0\DAL.SqlServer.dll
+C:\Users\Husey_ij91\source\repos\RestaurantManagement\DAL.SqlServer\obj\Debug\net8.0\refint\DAL.SqlServer.dll
+C:\Users\Husey_ij91\source\repos\RestaurantManagement\DAL.SqlServer\obj\Debug\net8.0\DAL.SqlServer.pdb
+C:\Users\Husey_ij91\source\repos\RestaurantManagement\DAL.SqlServer\obj\Debug\net8.0\ref\DAL.SqlServer.dll
