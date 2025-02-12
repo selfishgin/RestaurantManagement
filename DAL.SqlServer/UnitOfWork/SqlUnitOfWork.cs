@@ -16,8 +16,8 @@ public class SqlUnitOfWork(string connectionString, AppDbContext context) : IUni
 	public ICategoryRepository CategoryRepository => _sqlCategoryRepository ?? new SqlCategoryRepository(_connectionString, _context);
 
 
-	public Task<int> SaveChange()
+	public async Task<int> SaveChange()
 	{
-		throw new NotImplementedException();
+		return await _context.SaveChangesAsync();
 	}
 }
