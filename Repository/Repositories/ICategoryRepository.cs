@@ -10,6 +10,4 @@ public interface ICategoryRepository
     IQueryable<Category> GetAll();
     Task<Category> GetByIdAsync(int id);
     Task<IEnumerable<Category>> GetByNameAsync(string name);
-
-
 }

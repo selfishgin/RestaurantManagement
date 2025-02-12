@@ -10,16 +10,12 @@ public class SqlUnitOfWork(string connectionString, AppDbContext context) : IUni
     private readonly string _connectionString = connectionString;
     private readonly AppDbContext _context = context;
 
-
     public SqlCategoryRepository _sqlCategoryRepository;
-
-
 
     public ICategoryRepository CategoryRepository => _sqlCategoryRepository ?? new SqlCategoryRepository(_connectionString , _context);
 
-
-    public Task<int> SaveChanges()
+    public async Task<int> SaveChanges()
     {
-        throw new NotImplementedException();
+        return await _context.SaveChangesAsync();
     }
 }

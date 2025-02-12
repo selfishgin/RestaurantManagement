@@ -17,10 +17,11 @@ public class SqlCategoryRepository : BaseSqlRepository, ICategoryRepository
     public async Task AddAsync(Category category)
     {
         var sql = @"INSERT INTO CATEGORIES([Name],[CreatedBy])
-                    VALUES(@Name , @CreatedBy)";
+                    VALUES(@Name , @CreatedBy); SELECT SCOPE_IDENTITY()";
 
         using var conn = OpenConnection();
         var generatedId = await conn.ExecuteScalarAsync<int>(sql, category);
+        category.Id = generatedId;
     }
 
     public IQueryable<Category> GetAll()
