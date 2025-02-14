@@ -37,7 +37,7 @@ public class SqlCategoryRepository : BaseSqlRepository, ICategoryRepository
 
         using var conn = OpenConnection();
 
-        return await conn.QueryFirstOrDefaultAsync<Category>(sql, id);
+        return await conn.QueryFirstOrDefaultAsync<Category>(sql, new { id });
     }
 
     public async Task<IEnumerable<Category>> GetByNameAsync(string name)
@@ -57,15 +57,15 @@ public class SqlCategoryRepository : BaseSqlRepository, ICategoryRepository
         var checkSql = "SELECT Id FROM Categories WHERE Id=@id AND IsDeleted=0";
 
         var sql = @"UPDATE Categories
-                    SET IsDeleted=1
-                    DeletedBy= @deletedBy
+                    SET IsDeleted=1,
+                    DeletedBy= @deletedBy,
                     DeletedDate = GETDATE()
                     Where Id=@id";
 
         using var conn = OpenConnection();
         using var transaction = conn.BeginTransaction();
 
-        var categoryId = await conn.ExecuteScalarAsync<int?>(checkSql, id , transaction);
+        var categoryId = await conn.ExecuteScalarAsync<int?>(checkSql, new { id } , transaction);
 
         if (!categoryId.HasValue)
                 return false;
