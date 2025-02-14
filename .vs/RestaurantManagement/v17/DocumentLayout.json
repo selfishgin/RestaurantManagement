@@ -1,0 +1,387 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Husey_ij91\\Desktop\\RestaurantManagement\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B0F3D0A9-87BB-4251-9AC8-B1CBE1570911}|Application\\Application.csproj|c:\\users\\husey_ij91\\desktop\\restaurantmanagement\\application\\cqrs\\categories\\handlers\\commandhandlers\\deletecategoryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0F3D0A9-87BB-4251-9AC8-B1CBE1570911}|Application\\Application.csproj|solutionrelative:application\\cqrs\\categories\\handlers\\commandhandlers\\deletecategoryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0F3D0A9-87BB-4251-9AC8-B1CBE1570911}|Application\\Application.csproj|c:\\users\\husey_ij91\\desktop\\restaurantmanagement\\application\\cqrs\\categories\\commands\\requests\\deletecategoryrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0F3D0A9-87BB-4251-9AC8-B1CBE1570911}|Application\\Application.csproj|solutionrelative:application\\cqrs\\categories\\commands\\requests\\deletecategoryrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0F3D0A9-87BB-4251-9AC8-B1CBE1570911}|Application\\Application.csproj|c:\\users\\husey_ij91\\desktop\\restaurantmanagement\\application\\cqrs\\categories\\handlers\\commandhandlers\\createcategoryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0F3D0A9-87BB-4251-9AC8-B1CBE1570911}|Application\\Application.csproj|solutionrelative:application\\cqrs\\categories\\handlers\\commandhandlers\\createcategoryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0F3D0A9-87BB-4251-9AC8-B1CBE1570911}|Application\\Application.csproj|c:\\users\\husey_ij91\\desktop\\restaurantmanagement\\application\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0F3D0A9-87BB-4251-9AC8-B1CBE1570911}|Application\\Application.csproj|solutionrelative:application\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0F3D0A9-87BB-4251-9AC8-B1CBE1570911}|Application\\Application.csproj|c:\\users\\husey_ij91\\desktop\\restaurantmanagement\\application\\cqrs\\categories\\commands\\responds\\deletecategoryresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0F3D0A9-87BB-4251-9AC8-B1CBE1570911}|Application\\Application.csproj|solutionrelative:application\\cqrs\\categories\\commands\\responds\\deletecategoryresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CA1FF95-4DB2-43C7-BB22-E2B6487A851C}|DAL.SqlServer\\DAL.SqlServer.csproj|c:\\users\\husey_ij91\\desktop\\restaurantmanagement\\dal.sqlserver\\dependencyinjections.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CA1FF95-4DB2-43C7-BB22-E2B6487A851C}|DAL.SqlServer\\DAL.SqlServer.csproj|solutionrelative:dal.sqlserver\\dependencyinjections.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A87293BD-C22E-4B54-B997-0937E21F8DCB}|RestaurantManagement\\RestaurantManagement.csproj|c:\\users\\husey_ij91\\desktop\\restaurantmanagement\\restaurantmanagement\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A87293BD-C22E-4B54-B997-0937E21F8DCB}|RestaurantManagement\\RestaurantManagement.csproj|solutionrelative:restaurantmanagement\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0F3D0A9-87BB-4251-9AC8-B1CBE1570911}|Application\\Application.csproj|c:\\users\\husey_ij91\\desktop\\restaurantmanagement\\application\\cqrs\\categories\\handlers\\queryhandlers\\getallcategoryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0F3D0A9-87BB-4251-9AC8-B1CBE1570911}|Application\\Application.csproj|solutionrelative:application\\cqrs\\categories\\handlers\\queryhandlers\\getallcategoryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91F2BE60-B63A-4D32-ABE3-0DDCA81BB7A3}|Common\\Common.csproj|c:\\users\\husey_ij91\\desktop\\restaurantmanagement\\common\\globalresponse\\generics\\pagination.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91F2BE60-B63A-4D32-ABE3-0DDCA81BB7A3}|Common\\Common.csproj|solutionrelative:common\\globalresponse\\generics\\pagination.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0F3D0A9-87BB-4251-9AC8-B1CBE1570911}|Application\\Application.csproj|c:\\users\\husey_ij91\\desktop\\restaurantmanagement\\application\\cqrs\\categories\\queries\\requests\\getallcategoryrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0F3D0A9-87BB-4251-9AC8-B1CBE1570911}|Application\\Application.csproj|solutionrelative:application\\cqrs\\categories\\queries\\requests\\getallcategoryrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91F2BE60-B63A-4D32-ABE3-0DDCA81BB7A3}|Common\\Common.csproj|c:\\users\\husey_ij91\\desktop\\restaurantmanagement\\common\\globalresponse\\generics\\responsemodelpagination.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91F2BE60-B63A-4D32-ABE3-0DDCA81BB7A3}|Common\\Common.csproj|solutionrelative:common\\globalresponse\\generics\\responsemodelpagination.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A87293BD-C22E-4B54-B997-0937E21F8DCB}|RestaurantManagement\\RestaurantManagement.csproj|c:\\users\\husey_ij91\\desktop\\restaurantmanagement\\restaurantmanagement\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A87293BD-C22E-4B54-B997-0937E21F8DCB}|RestaurantManagement\\RestaurantManagement.csproj|solutionrelative:restaurantmanagement\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0F3D0A9-87BB-4251-9AC8-B1CBE1570911}|Application\\Application.csproj|c:\\users\\husey_ij91\\desktop\\restaurantmanagement\\application\\cqrs\\categories\\handlers\\queryhandlers\\getbyidcategoryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0F3D0A9-87BB-4251-9AC8-B1CBE1570911}|Application\\Application.csproj|solutionrelative:application\\cqrs\\categories\\handlers\\queryhandlers\\getbyidcategoryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0F3D0A9-87BB-4251-9AC8-B1CBE1570911}|Application\\Application.csproj|c:\\users\\husey_ij91\\desktop\\restaurantmanagement\\application\\cqrs\\categories\\queries\\responds\\getallcategoryresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0F3D0A9-87BB-4251-9AC8-B1CBE1570911}|Application\\Application.csproj|solutionrelative:application\\cqrs\\categories\\queries\\responds\\getallcategoryresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0F3D0A9-87BB-4251-9AC8-B1CBE1570911}|Application\\Application.csproj|c:\\users\\husey_ij91\\desktop\\restaurantmanagement\\application\\cqrs\\categories\\queries\\requests\\getbyidcategoryrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0F3D0A9-87BB-4251-9AC8-B1CBE1570911}|Application\\Application.csproj|solutionrelative:application\\cqrs\\categories\\queries\\requests\\getbyidcategoryrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CA1FF95-4DB2-43C7-BB22-E2B6487A851C}|DAL.SqlServer\\DAL.SqlServer.csproj|c:\\users\\husey_ij91\\desktop\\restaurantmanagement\\dal.sqlserver\\infrastructure\\sqlcategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CA1FF95-4DB2-43C7-BB22-E2B6487A851C}|DAL.SqlServer\\DAL.SqlServer.csproj|solutionrelative:dal.sqlserver\\infrastructure\\sqlcategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0F3D0A9-87BB-4251-9AC8-B1CBE1570911}|Application\\Application.csproj|c:\\users\\husey_ij91\\desktop\\restaurantmanagement\\application\\cqrs\\categories\\commands\\requests\\createcategoryrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0F3D0A9-87BB-4251-9AC8-B1CBE1570911}|Application\\Application.csproj|solutionrelative:application\\cqrs\\categories\\commands\\requests\\createcategoryrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0F3D0A9-87BB-4251-9AC8-B1CBE1570911}|Application\\Application.csproj|c:\\users\\husey_ij91\\desktop\\restaurantmanagement\\application\\cqrs\\categories\\commands\\responds\\createcategoryresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0F3D0A9-87BB-4251-9AC8-B1CBE1570911}|Application\\Application.csproj|solutionrelative:application\\cqrs\\categories\\commands\\responds\\createcategoryresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Husey_ij91\\Desktop\\RestaurantManagement\\SQLQuery2.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SQLQuery2.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A87293BD-C22E-4B54-B997-0937E21F8DCB}|RestaurantManagement\\RestaurantManagement.csproj|c:\\users\\husey_ij91\\desktop\\restaurantmanagement\\restaurantmanagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A87293BD-C22E-4B54-B997-0937E21F8DCB}|RestaurantManagement\\RestaurantManagement.csproj|solutionrelative:restaurantmanagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0F3D0A9-87BB-4251-9AC8-B1CBE1570911}|Application\\Application.csproj|c:\\users\\husey_ij91\\desktop\\restaurantmanagement\\application\\cqrs\\categories\\queries\\responds\\getbyidcategoryresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0F3D0A9-87BB-4251-9AC8-B1CBE1570911}|Application\\Application.csproj|solutionrelative:application\\cqrs\\categories\\queries\\responds\\getbyidcategoryresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Husey_ij91\\Desktop\\RestaurantManagement\\SQLQuery2.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SQLQuery2.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Husey_ij91\\Desktop\\RestaurantManagement\\SQLQuery2.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|ResultFrame",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SQLQuery2.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|ResultFrame"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DeleteCategoryHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Husey_ij91\\Desktop\\RestaurantManagement\\Application\\CQRS\\Categories\\Handlers\\CommandHandlers\\DeleteCategoryHandler.cs",
+              "RelativeDocumentMoniker": "Application\\CQRS\\Categories\\Handlers\\CommandHandlers\\DeleteCategoryHandler.cs",
+              "ToolTip": "C:\\Users\\Husey_ij91\\Desktop\\RestaurantManagement\\Application\\CQRS\\Categories\\Handlers\\CommandHandlers\\DeleteCategoryHandler.cs",
+              "RelativeToolTip": "Application\\CQRS\\Categories\\Handlers\\CommandHandlers\\DeleteCategoryHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAwAAABQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T07:59:14.956Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DeleteCategoryResponse.cs",
+              "DocumentMoniker": "C:\\Users\\Husey_ij91\\Desktop\\RestaurantManagement\\Application\\CQRS\\Categories\\Commands\\Responds\\DeleteCategoryResponse.cs",
+              "RelativeDocumentMoniker": "Application\\CQRS\\Categories\\Commands\\Responds\\DeleteCategoryResponse.cs",
+              "ToolTip": "C:\\Users\\Husey_ij91\\Desktop\\RestaurantManagement\\Application\\CQRS\\Categories\\Commands\\Responds\\DeleteCategoryResponse.cs",
+              "RelativeToolTip": "Application\\CQRS\\Categories\\Commands\\Responds\\DeleteCategoryResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T07:54:56.892Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DeleteCategoryRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Husey_ij91\\Desktop\\RestaurantManagement\\Application\\CQRS\\Categories\\Commands\\Requests\\DeleteCategoryRequest.cs",
+              "RelativeDocumentMoniker": "Application\\CQRS\\Categories\\Commands\\Requests\\DeleteCategoryRequest.cs",
+              "ToolTip": "C:\\Users\\Husey_ij91\\Desktop\\RestaurantManagement\\Application\\CQRS\\Categories\\Commands\\Requests\\DeleteCategoryRequest.cs",
+              "RelativeToolTip": "Application\\CQRS\\Categories\\Commands\\Requests\\DeleteCategoryRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAYAAABNAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T07:54:48.937Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "C:\\Users\\Husey_ij91\\Desktop\\RestaurantManagement\\Application\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "Application\\DependencyInjection.cs",
+              "ToolTip": "C:\\Users\\Husey_ij91\\Desktop\\RestaurantManagement\\Application\\DependencyInjection.cs",
+              "RelativeToolTip": "Application\\DependencyInjection.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T05:58:15.491Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Husey_ij91\\Desktop\\RestaurantManagement\\RestaurantManagement\\appsettings.json",
+              "RelativeDocumentMoniker": "RestaurantManagement\\appsettings.json",
+              "ToolTip": "C:\\Users\\Husey_ij91\\Desktop\\RestaurantManagement\\RestaurantManagement\\appsettings.json",
+              "RelativeToolTip": "RestaurantManagement\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAD7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-14T06:08:57.931Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ResponseModelPagination.cs",
+              "DocumentMoniker": "C:\\Users\\Husey_ij91\\Desktop\\RestaurantManagement\\Common\\GlobalResponse\\Generics\\ResponseModelPagination.cs",
+              "RelativeDocumentMoniker": "Common\\GlobalResponse\\Generics\\ResponseModelPagination.cs",
+              "ToolTip": "C:\\Users\\Husey_ij91\\Desktop\\RestaurantManagement\\Common\\GlobalResponse\\Generics\\ResponseModelPagination.cs",
+              "RelativeToolTip": "Common\\GlobalResponse\\Generics\\ResponseModelPagination.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAoAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T06:24:13.933Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Pagination.cs",
+              "DocumentMoniker": "C:\\Users\\Husey_ij91\\Desktop\\RestaurantManagement\\Common\\GlobalResponse\\Generics\\Pagination.cs",
+              "RelativeDocumentMoniker": "Common\\GlobalResponse\\Generics\\Pagination.cs",
+              "ToolTip": "C:\\Users\\Husey_ij91\\Desktop\\RestaurantManagement\\Common\\GlobalResponse\\Generics\\Pagination.cs",
+              "RelativeToolTip": "Common\\GlobalResponse\\Generics\\Pagination.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T06:18:32.35Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CreateCategoryHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Husey_ij91\\Desktop\\RestaurantManagement\\Application\\CQRS\\Categories\\Handlers\\CommandHandlers\\CreateCategoryHandler.cs",
+              "RelativeDocumentMoniker": "Application\\CQRS\\Categories\\Handlers\\CommandHandlers\\CreateCategoryHandler.cs",
+              "ToolTip": "C:\\Users\\Husey_ij91\\Desktop\\RestaurantManagement\\Application\\CQRS\\Categories\\Handlers\\CommandHandlers\\CreateCategoryHandler.cs",
+              "RelativeToolTip": "Application\\CQRS\\Categories\\Handlers\\CommandHandlers\\CreateCategoryHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAkAAABiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T06:15:27.665Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "C:\\Users\\Husey_ij91\\Desktop\\RestaurantManagement\\RestaurantManagement\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "RestaurantManagement\\Controllers\\CategoryController.cs",
+              "ToolTip": "C:\\Users\\Husey_ij91\\Desktop\\RestaurantManagement\\RestaurantManagement\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "RestaurantManagement\\Controllers\\CategoryController.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAB4AAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T05:59:44.481Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "GetAllCategoryRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Husey_ij91\\Desktop\\RestaurantManagement\\Application\\CQRS\\Categories\\Queries\\Requests\\GetAllCategoryRequest.cs",
+              "RelativeDocumentMoniker": "Application\\CQRS\\Categories\\Queries\\Requests\\GetAllCategoryRequest.cs",
+              "ToolTip": "C:\\Users\\Husey_ij91\\Desktop\\RestaurantManagement\\Application\\CQRS\\Categories\\Queries\\Requests\\GetAllCategoryRequest.cs",
+              "RelativeToolTip": "Application\\CQRS\\Categories\\Queries\\Requests\\GetAllCategoryRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAcAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T07:05:18.585Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DependencyInjections.cs",
+              "DocumentMoniker": "C:\\Users\\Husey_ij91\\Desktop\\RestaurantManagement\\DAL.SqlServer\\DependencyInjections.cs",
+              "RelativeDocumentMoniker": "DAL.SqlServer\\DependencyInjections.cs",
+              "ToolTip": "C:\\Users\\Husey_ij91\\Desktop\\RestaurantManagement\\DAL.SqlServer\\DependencyInjections.cs",
+              "RelativeToolTip": "DAL.SqlServer\\DependencyInjections.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T06:00:34.995Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "GetAllCategoryHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Husey_ij91\\Desktop\\RestaurantManagement\\Application\\CQRS\\Categories\\Handlers\\QueryHandlers\\GetAllCategoryHandler.cs",
+              "RelativeDocumentMoniker": "Application\\CQRS\\Categories\\Handlers\\QueryHandlers\\GetAllCategoryHandler.cs",
+              "ToolTip": "C:\\Users\\Husey_ij91\\Desktop\\RestaurantManagement\\Application\\CQRS\\Categories\\Handlers\\QueryHandlers\\GetAllCategoryHandler.cs",
+              "RelativeToolTip": "Application\\CQRS\\Categories\\Handlers\\QueryHandlers\\GetAllCategoryHandler.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABwAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T07:09:02.669Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "GetByIdCategoryHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Husey_ij91\\Desktop\\RestaurantManagement\\Application\\CQRS\\Categories\\Handlers\\QueryHandlers\\GetByIdCategoryHandler.cs",
+              "RelativeDocumentMoniker": "Application\\CQRS\\Categories\\Handlers\\QueryHandlers\\GetByIdCategoryHandler.cs",
+              "ToolTip": "C:\\Users\\Husey_ij91\\Desktop\\RestaurantManagement\\Application\\CQRS\\Categories\\Handlers\\QueryHandlers\\GetByIdCategoryHandler.cs",
+              "RelativeToolTip": "Application\\CQRS\\Categories\\Handlers\\QueryHandlers\\GetByIdCategoryHandler.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAcAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T05:58:57.098Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "SqlCategoryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Husey_ij91\\Desktop\\RestaurantManagement\\DAL.SqlServer\\Infrastructure\\SqlCategoryRepository.cs",
+              "RelativeDocumentMoniker": "DAL.SqlServer\\Infrastructure\\SqlCategoryRepository.cs",
+              "ToolTip": "C:\\Users\\Husey_ij91\\Desktop\\RestaurantManagement\\DAL.SqlServer\\Infrastructure\\SqlCategoryRepository.cs",
+              "RelativeToolTip": "DAL.SqlServer\\Infrastructure\\SqlCategoryRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T06:17:01.304Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "GetAllCategoryResponse.cs",
+              "DocumentMoniker": "C:\\Users\\Husey_ij91\\Desktop\\RestaurantManagement\\Application\\CQRS\\Categories\\Queries\\Responds\\GetAllCategoryResponse.cs",
+              "RelativeDocumentMoniker": "Application\\CQRS\\Categories\\Queries\\Responds\\GetAllCategoryResponse.cs",
+              "ToolTip": "C:\\Users\\Husey_ij91\\Desktop\\RestaurantManagement\\Application\\CQRS\\Categories\\Queries\\Responds\\GetAllCategoryResponse.cs",
+              "RelativeToolTip": "Application\\CQRS\\Categories\\Queries\\Responds\\GetAllCategoryResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T07:02:31.834Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "CreateCategoryRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Husey_ij91\\Desktop\\RestaurantManagement\\Application\\CQRS\\Categories\\Commands\\Requests\\CreateCategoryRequest.cs",
+              "RelativeDocumentMoniker": "Application\\CQRS\\Categories\\Commands\\Requests\\CreateCategoryRequest.cs",
+              "ToolTip": "C:\\Users\\Husey_ij91\\Desktop\\RestaurantManagement\\Application\\CQRS\\Categories\\Commands\\Requests\\CreateCategoryRequest.cs",
+              "RelativeToolTip": "Application\\CQRS\\Categories\\Commands\\Requests\\CreateCategoryRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAgAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T06:15:04.497Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "CreateCategoryResponse.cs",
+              "DocumentMoniker": "C:\\Users\\Husey_ij91\\Desktop\\RestaurantManagement\\Application\\CQRS\\Categories\\Commands\\Responds\\CreateCategoryResponse.cs",
+              "RelativeDocumentMoniker": "Application\\CQRS\\Categories\\Commands\\Responds\\CreateCategoryResponse.cs",
+              "ToolTip": "C:\\Users\\Husey_ij91\\Desktop\\RestaurantManagement\\Application\\CQRS\\Categories\\Commands\\Responds\\CreateCategoryResponse.cs",
+              "RelativeToolTip": "Application\\CQRS\\Categories\\Commands\\Responds\\CreateCategoryResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T06:15:10.346Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "GetByIdCategoryRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Husey_ij91\\Desktop\\RestaurantManagement\\Application\\CQRS\\Categories\\Queries\\Requests\\GetByIdCategoryRequest.cs",
+              "RelativeDocumentMoniker": "Application\\CQRS\\Categories\\Queries\\Requests\\GetByIdCategoryRequest.cs",
+              "ToolTip": "C:\\Users\\Husey_ij91\\Desktop\\RestaurantManagement\\Application\\CQRS\\Categories\\Queries\\Requests\\GetByIdCategoryRequest.cs",
+              "RelativeToolTip": "Application\\CQRS\\Categories\\Queries\\Requests\\GetByIdCategoryRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T05:59:01.659Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Husey_ij91\\Desktop\\RestaurantManagement\\RestaurantManagement\\Program.cs",
+              "RelativeDocumentMoniker": "RestaurantManagement\\Program.cs",
+              "ToolTip": "C:\\Users\\Husey_ij91\\Desktop\\RestaurantManagement\\RestaurantManagement\\Program.cs",
+              "RelativeToolTip": "RestaurantManagement\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T06:09:44.435Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "SQLQuery2.sql ",
+              "DocumentMoniker": "C:\\Users\\Husey_ij91\\Desktop\\RestaurantManagement\\SQLQuery2.sql",
+              "RelativeDocumentMoniker": "SQLQuery2.sql",
+              "ToolTip": "SQLQuery2.sql ",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-02-14T06:06:05.107Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "GetByIdCategoryResponse.cs",
+              "DocumentMoniker": "C:\\Users\\Husey_ij91\\Desktop\\RestaurantManagement\\Application\\CQRS\\Categories\\Queries\\Responds\\GetByIdCategoryResponse.cs",
+              "RelativeDocumentMoniker": "Application\\CQRS\\Categories\\Queries\\Responds\\GetByIdCategoryResponse.cs",
+              "ToolTip": "C:\\Users\\Husey_ij91\\Desktop\\RestaurantManagement\\Application\\CQRS\\Categories\\Queries\\Responds\\GetByIdCategoryResponse.cs",
+              "RelativeToolTip": "Application\\CQRS\\Categories\\Queries\\Responds\\GetByIdCategoryResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T05:59:07.914Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

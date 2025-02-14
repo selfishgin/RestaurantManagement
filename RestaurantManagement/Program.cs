@@ -9,7 +9,7 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-var conn = builder.Configuration.GetConnectionString("");
+var conn = builder.Configuration.GetConnectionString("DefaultConnection");
 
 builder.Services.AddSqlServerServices(conn);
 builder.Services.AddApplicationServices();

@@ -9,3 +9,15 @@ C:\Users\Husey_ij91\source\repos\RestaurantManagement\Common\obj\Debug\net8.0\Co
 C:\Users\Husey_ij91\source\repos\RestaurantManagement\Common\obj\Debug\net8.0\refint\Common.dll
 C:\Users\Husey_ij91\source\repos\RestaurantManagement\Common\obj\Debug\net8.0\Common.pdb
 C:\Users\Husey_ij91\source\repos\RestaurantManagement\Common\obj\Debug\net8.0\ref\Common.dll
+C:\Users\Husey_ij91\Desktop\RestaurantManagement\Common\bin\Debug\net8.0\Common.deps.json
+C:\Users\Husey_ij91\Desktop\RestaurantManagement\Common\bin\Debug\net8.0\Common.dll
+C:\Users\Husey_ij91\Desktop\RestaurantManagement\Common\bin\Debug\net8.0\Common.pdb
+C:\Users\Husey_ij91\Desktop\RestaurantManagement\Common\obj\Debug\net8.0\Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Husey_ij91\Desktop\RestaurantManagement\Common\obj\Debug\net8.0\Common.AssemblyInfoInputs.cache
+C:\Users\Husey_ij91\Desktop\RestaurantManagement\Common\obj\Debug\net8.0\Common.AssemblyInfo.cs
+C:\Users\Husey_ij91\Desktop\RestaurantManagement\Common\obj\Debug\net8.0\Common.csproj.CoreCompileInputs.cache
+C:\Users\Husey_ij91\Desktop\RestaurantManagement\Common\obj\Debug\net8.0\Common.sourcelink.json
+C:\Users\Husey_ij91\Desktop\RestaurantManagement\Common\obj\Debug\net8.0\Common.dll
+C:\Users\Husey_ij91\Desktop\RestaurantManagement\Common\obj\Debug\net8.0\refint\Common.dll
+C:\Users\Husey_ij91\Desktop\RestaurantManagement\Common\obj\Debug\net8.0\Common.pdb
+C:\Users\Husey_ij91\Desktop\RestaurantManagement\Common\obj\Debug\net8.0\ref\Common.dll

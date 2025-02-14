@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Husey_ij91\\source\\repos\\RestaurantManagement\\Common\\Common.csproj",
+      "projectUniqueName": "C:\\Users\\Husey_ij91\\Desktop\\RestaurantManagement\\Common\\Common.csproj",
       "projectName": "Common",
-      "projectPath": "C:\\Users\\Husey_ij91\\source\\repos\\RestaurantManagement\\Common\\Common.csproj",
+      "projectPath": "C:\\Users\\Husey_ij91\\Desktop\\RestaurantManagement\\Common\\Common.csproj",
       "packagesPath": "C:\\Users\\Husey_ij91\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Husey_ij91\\source\\repos\\RestaurantManagement\\Common\\obj\\",
+      "outputPath": "C:\\Users\\Husey_ij91\\Desktop\\RestaurantManagement\\Common\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

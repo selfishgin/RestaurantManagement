@@ -1,24 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "Aag7DCdf9JrobbAei4mZJNbXpdfJwCv3bL0p4zLDLwEc5JEb89ep6+HW6PFjLB7zkXxZj/T5Vdkhbm2Itej7YA==",
+  "dgSpecHash": "rXRZer4kwW1UvwPR1O1c8nW2dKS3Tfl30eKgXalm98uCE9N+YYhuV0mTpqv/duxY45j6HGKstzKMR7zaV40cvQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Husey_ij91\\source\\repos\\RestaurantManagement\\Application\\Application.csproj",
+  "projectFilePath": "C:\\Users\\Husey_ij91\\Desktop\\RestaurantManagement\\Application\\Application.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Husey_ij91\\.nuget\\packages\\mediatr\\12.4.1\\mediatr.12.4.1.nupkg.sha512",
-    "C:\\Users\\Husey_ij91\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
+    "C:\\Users\\Husey_ij91\\.nuget\\packages\\mediatr\\11.1.0\\mediatr.11.1.0.nupkg.sha512",
+    "C:\\Users\\Husey_ij91\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",
     "C:\\Users\\Husey_ij91\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\11.1.0\\mediatr.extensions.microsoft.dependencyinjection.11.1.0.nupkg.sha512",
-    "C:\\Users\\Husey_ij91\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512"
+    "C:\\Users\\Husey_ij91\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1608",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Detected package version outside of dependency constraint: MediatR.Extensions.Microsoft.DependencyInjection 11.1.0 requires MediatR (>= 11.0.0 && < 12.0.0) but version MediatR 12.4.1 was resolved.",
-      "libraryId": "MediatR",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    }
-  ]
+  "logs": []
 }

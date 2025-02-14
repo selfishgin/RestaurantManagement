@@ -33,11 +33,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Husey_ij91\\source\\repos\\RestaurantManagement\\Repository\\Repository.csproj",
+      "projectUniqueName": "C:\\Users\\Husey_ij91\\Desktop\\RestaurantManagement\\Repository\\Repository.csproj",
       "projectName": "Repository",
-      "projectPath": "C:\\Users\\Husey_ij91\\source\\repos\\RestaurantManagement\\Repository\\Repository.csproj",
+      "projectPath": "C:\\Users\\Husey_ij91\\Desktop\\RestaurantManagement\\Repository\\Repository.csproj",
       "packagesPath": "C:\\Users\\Husey_ij91\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Husey_ij91\\source\\repos\\RestaurantManagement\\Repository\\obj\\",
+      "outputPath": "C:\\Users\\Husey_ij91\\Desktop\\RestaurantManagement\\Repository\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -59,8 +59,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\Husey_ij91\\source\\repos\\RestaurantManagement\\Domain\\Domain.csproj": {
-              "projectPath": "C:\\Users\\Husey_ij91\\source\\repos\\RestaurantManagement\\Domain\\Domain.csproj"
+            "C:\\Users\\Husey_ij91\\Desktop\\RestaurantManagement\\Domain\\Domain.csproj": {
+              "projectPath": "C:\\Users\\Husey_ij91\\Desktop\\RestaurantManagement\\Domain\\Domain.csproj"
             }
           }
         }
