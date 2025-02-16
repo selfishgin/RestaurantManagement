@@ -21,3 +21,15 @@ C:\Users\Husey_ij91\Desktop\RestaurantManagement\Domain\obj\Debug\net8.0\Domain.
 C:\Users\Husey_ij91\Desktop\RestaurantManagement\Domain\obj\Debug\net8.0\refint\Domain.dll
 C:\Users\Husey_ij91\Desktop\RestaurantManagement\Domain\obj\Debug\net8.0\Domain.pdb
 C:\Users\Husey_ij91\Desktop\RestaurantManagement\Domain\obj\Debug\net8.0\ref\Domain.dll
+C:\Users\Antec\Desktop\RestaurantManagement\Domain\bin\Debug\net8.0\Domain.deps.json
+C:\Users\Antec\Desktop\RestaurantManagement\Domain\bin\Debug\net8.0\Domain.dll
+C:\Users\Antec\Desktop\RestaurantManagement\Domain\bin\Debug\net8.0\Domain.pdb
+C:\Users\Antec\Desktop\RestaurantManagement\Domain\obj\Debug\net8.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Antec\Desktop\RestaurantManagement\Domain\obj\Debug\net8.0\Domain.AssemblyInfoInputs.cache
+C:\Users\Antec\Desktop\RestaurantManagement\Domain\obj\Debug\net8.0\Domain.AssemblyInfo.cs
+C:\Users\Antec\Desktop\RestaurantManagement\Domain\obj\Debug\net8.0\Domain.csproj.CoreCompileInputs.cache
+C:\Users\Antec\Desktop\RestaurantManagement\Domain\obj\Debug\net8.0\Domain.sourcelink.json
+C:\Users\Antec\Desktop\RestaurantManagement\Domain\obj\Debug\net8.0\Domain.dll
+C:\Users\Antec\Desktop\RestaurantManagement\Domain\obj\Debug\net8.0\refint\Domain.dll
+C:\Users\Antec\Desktop\RestaurantManagement\Domain\obj\Debug\net8.0\Domain.pdb
+C:\Users\Antec\Desktop\RestaurantManagement\Domain\obj\Debug\net8.0\ref\Domain.dll
