@@ -1,6 +1,6 @@
 using Application;
 using DAL.SqlServer;
-
+using RestaurantManagement.Middlewares;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -13,8 +13,6 @@ var conn = builder.Configuration.GetConnectionString("myconn");
 builder.Services.AddSqlServerServices(conn);
 builder.Services.AddApplicationServices();
 
-
-
 var app = builder.Build();
 
 if (app.Environment.IsDevelopment())
@@ -26,6 +24,8 @@ if (app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 
 app.UseAuthorization();
+
+app.UseMiddleware<ExceptionHandlerMiddleware>();
 
 app.MapControllers();
 

@@ -1,5 +1,6 @@
 ﻿using Application.CQRS.Categories.Commands.Requests;
 using Application.CQRS.Categories.Commands.Responses;
+using Common.Exceptions;
 using Common.GlobalResopnses.Generics;
 using Domain.Entites;
 using MediatR;
@@ -21,12 +22,14 @@ public class CreateCategoryHandler(IUnitOfWork unitOfWork) : IRequestHandler<Cre
 
         if (string.IsNullOrEmpty(request.Name))
         {
-            return new ResponseModel<CreateCategoryResponse>
-            {
-                Data = null,
-                Errors = ["Gonderilen melumat bosh ve ya null ola bilmez"],
-                IsSuccess = false
-            };
+            //return new ResponseModel<CreateCategoryResponse>
+            //{
+            //    Data = null,
+            //    Errors = ["Gonderilen melumat bosh ve ya null ola bilmez"],
+            //    IsSuccess = false
+            //};
+
+            throw new BadRequestException("Gonderilen melumat bosh ve ya null ola bilmez");
         }
 
         await _unitOfWork.CategoryRepository.AddAsync(newCategory);
