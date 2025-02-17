@@ -1,4 +1,5 @@
-﻿using DAL.SqlServer.Context;
+﻿using Common.Exceptions;
+using DAL.SqlServer.Context;
 using Dapper;
 using Domain.Entities;
 using Repository.Repositories;
@@ -67,7 +68,7 @@ public class SqlCategoryRepository : BaseSqlRepository, ICategoryRepository
 		var categoryId = await conn.ExecuteScalarAsync<int?>(checkSql, new { id }, transaction);
 
 		if (!categoryId.HasValue)
-			return false;
+			throw new NotFoundException(typeof(Category), id);
 
 		var affectedRow = await conn.ExecuteAsync(sql, new {id, deletedBy}, transaction);
 

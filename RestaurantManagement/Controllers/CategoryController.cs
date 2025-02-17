@@ -31,14 +31,10 @@ public class CategoryController(ISender sender) : ControllerBase
 		return Ok(await _sender.Send(request));
 	}
 
-
 	[HttpDelete("{id}")]
 	public async Task<IActionResult> Delete(int id)
 	{
 		var request = new DeleteCategoryRequest() { Id = id };
 		return Ok(await _sender.Send(request));
 	}
-
-
-
 }

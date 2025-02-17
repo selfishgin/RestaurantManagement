@@ -12,10 +12,11 @@ public class DeleteCategoryHandler(IUnitOfWork unitOfWork) : IRequestHandler<Del
 
 	public async Task<ResponseModel<DeleteCategoryResponse>> Handle(DeleteCategoryRequest request, CancellationToken cancellationToken)
 	{
-		await _unitOfWork.CategoryRepository.Remove(request.Id, 0);
+		bool isTrue = await _unitOfWork.CategoryRepository.Remove(request.Id, 0);
+
 		return new ResponseModel<DeleteCategoryResponse>
 		{
-			Data = new DeleteCategoryResponse { Message = "Deleted Succesfully"},
+			Data = new DeleteCategoryResponse { Message = "Deleted Succesfully" },
 			Errors = [],
 			IsSuccess = true
 		};
