@@ -28,7 +28,7 @@ public class GetByIdCategoryHandler(IUnitOfWork unitOfWork) : IRequestHandler<Ge
         GetByIdCategoryResponse response = new()
         {
             Id = currentCategory.Id,
-            CreatedDate = currentCategory.CreatedDate,
+            CreatedDate = currentCategory.CreatedDate ?? DateTime.MinValue,
             Name = currentCategory.Name
         };
 

@@ -25,11 +25,11 @@ public class GetAllCategoryHandler(IUnitOfWork unitOfWork) : IRequestHandler<Get
         var mappedCategories = new List<GetAllCategoryResponse>();
         foreach (var category in categories)
         {
-            var mapped = new GetAllCategoryResponse()
+            var mapped = new GetAllCategoryResponse
             {
                 Id = category.Id,
                 Name = category.Name,
-                CreatedDate = category.CreatedDate,
+                CreatedDate = category.CreatedDate??DateTime.MinValue,
                 DeletedDate = category.DeletedDate ?? DateTime.MinValue,
                 UpdatedDate = category?.UpdatedDate ?? DateTime.MinValue,
             };

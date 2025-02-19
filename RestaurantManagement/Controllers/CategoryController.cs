@@ -20,7 +20,7 @@ public class CategoryController(ISender sender) : ControllerBase
     [HttpGet("{id}")]
     public async Task<IActionResult> GetById(int id)
     {
-        var request = new GetByIdCategoryRequest() {Id=id };
+        var request = new GetByIdCategoryRequest() { Id = id };
         return Ok(await _sender.Send(request));
     }
 

@@ -2,7 +2,6 @@
 using Dapper;
 using Domain.Entites;
 using Repository.Repositories;
-using System.Transactions;
 
 namespace DAL.SqlServer.Infrastructure;
 

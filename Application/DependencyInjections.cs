@@ -1,4 +1,6 @@
-﻿using MediatR;
+﻿using Application.AutoMapper;
+using AutoMapper;
+using MediatR;
 using Microsoft.Extensions.DependencyInjection;
 using System.Reflection;
 
@@ -8,6 +10,16 @@ public static class DependencyInjections
 {
     public static IServiceCollection AddApplicationServices(this IServiceCollection services)
     {
+        #region AutoMapper
+        var mapperConfig = new MapperConfiguration(mc =>
+        {
+            mc.AddProfile(new MappingProfile());
+        });
+
+        IMapper mapper = mapperConfig.CreateMapper();
+        services.AddSingleton(mapper);
+        #endregion
+
         services.AddMediatR(Assembly.GetExecutingAssembly());
         return services;
     }
