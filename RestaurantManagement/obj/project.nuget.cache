@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "sYnJQZAQ/WYbyU04xU6rD0JwAW+Sq4NA/cRg9CrIsWL21r4+vpsCR9OAOFErsbpcYqIoS2KFUEIpotBnHkG0dQ==",
+  "dgSpecHash": "PV7l0wMQOw/LnpLiE0B5ogpL5XlyV84cVVXMloGGjcyW9UUrnP0AgKFQCbNpWThNDjFeUZWycqBp5PfIS/hJAQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Husey_ij91\\Desktop\\RestaurantManagement\\RestaurantManagement\\RestaurantManagement.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Husey_ij91\\.nuget\\packages\\automapper\\14.0.0\\automapper.14.0.0.nupkg.sha512",
     "C:\\Users\\Husey_ij91\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\Husey_ij91\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
     "C:\\Users\\Husey_ij91\\.nuget\\packages\\dapper\\2.1.66\\dapper.2.1.66.nupkg.sha512",

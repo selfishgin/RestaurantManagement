@@ -12,8 +12,10 @@ public class SqlUnitOfWork(string connectionString, AppDbContext context) : IUni
 
 
 	public SqlCategoryRepository _sqlCategoryRepository;
+	public SqlUserRepository _sqlUserRepository;
 
 	public ICategoryRepository CategoryRepository => _sqlCategoryRepository ?? new SqlCategoryRepository(_connectionString, _context);
+	public IUserRepository UserRepository => _sqlUserRepository ?? new SqlUserRepository(_context);
 
 
 	public async Task<int> SaveChange()
