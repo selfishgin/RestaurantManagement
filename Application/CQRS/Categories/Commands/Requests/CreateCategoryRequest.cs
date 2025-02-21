@@ -1,11 +1,10 @@
-﻿using Application.CQRS.Categories.Commands.Responds;
-using Common.GlobalResponse.Generics;
+﻿using Application.CQRS.Categories.Commands.Responses;
+using Common.GlobalResopnses.Generics;
 using MediatR;
 
 namespace Application.CQRS.Categories.Commands.Requests;
 
-public class CreateCategoryRequest:IRequest<ResponseModel<CreateCategoryResponse>>
+public class CreateCategoryRequest : IRequest<ResponseModel<CreateCategoryResponse>>
 {
-	public string Name { get; set; }	
-
+    public string Name { get; set; }
 }

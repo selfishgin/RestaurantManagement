@@ -4,8 +4,8 @@ namespace Repository.Common;
 
 public interface IUnitOfWork
 {
-	public ICategoryRepository CategoryRepository { get; }
-	public IUserRepository UserRepository { get; }
+    public ICategoryRepository CategoryRepository { get;}
+    public IUserRepository UserRepository { get;}
 
-	Task<int> SaveChange();
+    Task<int> SaveChanges();
 }

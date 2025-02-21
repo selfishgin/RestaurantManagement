@@ -1,6 +1,6 @@
 ﻿namespace Application.CQRS.Users.DTOs;
 
-public class GetByIdDto
+public class RegisterDto
 {
     public int Id { get; set; }
     public string Name { get; set; }

@@ -1,10 +1,11 @@
-﻿using Application.CQRS.Categories.Commands.Responds;
-using Common.GlobalResponse.Generics;
+﻿using Application.CQRS.Categories.Commands.Responses;
+using Common.GlobalResopnses;
+using Common.GlobalResopnses.Generics;
 using MediatR;
 
 namespace Application.CQRS.Categories.Commands.Requests;
 
-public record struct DeleteCategoryRequest : IRequest<ResponseModel<DeleteCategoryResponse>>
+public record struct DeleteCategoryRequest:IRequest<ResponseModel<DeleteCategoryResponse>>
 {
-	public int Id { get; set; }
+    public int Id { get; set; }
 }

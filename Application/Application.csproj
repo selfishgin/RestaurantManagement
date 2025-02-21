@@ -20,7 +20,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="PipelineBehaviors\" />
+    <Folder Include="Services\FileUploadServices\" />
   </ItemGroup>
 
 </Project>

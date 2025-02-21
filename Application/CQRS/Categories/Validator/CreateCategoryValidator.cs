@@ -8,9 +8,8 @@ public class CreateCategoryValidator : AbstractValidator<CreateCategoryRequest>
     public CreateCategoryValidator()
     {
         RuleFor(c => c.Name)
-            .NotEmpty().WithMessage("Name cannot be null")
-            .MaximumLength(255).WithMessage("Cannot be more than 255");
+            .NotEmpty()
+            .MaximumLength(5)
+            .EmailAddress();
     }
-
-
 }

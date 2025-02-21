@@ -1,12 +1,11 @@
-﻿using Application.CQRS.Categories.Queries.Responds;
-using Common.GlobalResponse.Generics;
+﻿using Application.CQRS.Categories.Queries.Responses;
+using Common.GlobalResopnses.Generics;
 using MediatR;
 
 namespace Application.CQRS.Categories.Queries.Requests;
 
-public class GetAllCategoryRequest : IRequest<ResponseModelPagination<GetAllCategoryResponse>>
+public sealed class GetAllCategoryRequest:IRequest<ResponseModelPagination<GetAllCategoryResponse>>
 {
-	public int Limit { get; set; } = 10;
-	public int Page { get; set; } = 1;
-
+    public int Limit { get; set; } = 10;
+    public int Page { get; set; } = 1;
 }
