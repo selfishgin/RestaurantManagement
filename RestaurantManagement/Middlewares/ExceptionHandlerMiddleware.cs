@@ -30,10 +30,10 @@ public class ExceptionHandlerMiddleware(RequestDelegate next)
                     await WriteError(context, HttpStatusCode.NotFound, message);
                     break;
 
-                //default:
-                //    message = new List<string>() { error.Message };
-                //    await WriteError(context, HttpStatusCode.InternalServerError, message);
-                //    break;
+                default:
+                    message = new List<string>() { error.Message };
+                    await WriteError(context, HttpStatusCode.InternalServerError, message);
+                    break;
             }
         }
     }
