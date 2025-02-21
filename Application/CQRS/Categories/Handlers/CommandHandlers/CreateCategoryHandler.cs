@@ -16,7 +16,6 @@ public class CreateCategoryHandler(IUnitOfWork unitOfWork, IMapper mapper) : IRe
 
     public async Task<ResponseModel<CreateCategoryResponse>> Handle(CreateCategoryRequest request, CancellationToken cancellationToken)
     {
-
         var mappedRequest = _mapper.Map<Category>(request);
 
         await _unitOfWork.CategoryRepository.AddAsync(mappedRequest);

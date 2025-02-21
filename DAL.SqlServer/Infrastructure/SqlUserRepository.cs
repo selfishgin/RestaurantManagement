@@ -21,8 +21,7 @@ public class SqlUserRepository(AppDbContext context) : IUserRepository
 
     public async Task<User> GetByIdAsync(int id)
     {
-        var a =  await _context.Users.Where(u => u.IsDeleted == false).FirstOrDefaultAsync(u => u.Id == id);
-        return a;
+        return await _context.Users.Where(u => u.IsDeleted == false).FirstOrDefaultAsync(u => u.Id == id);
     }
 
     public async Task RegisterAsync(User user)
