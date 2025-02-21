@@ -5,7 +5,8 @@
     "\\Application\\CQRS",
     "\\Application\\CQRS\\Categories",
     "\\Application\\CQRS\\Categories\\Handlers",
-    "\\Application\\CQRS\\Categories\\Handlers\\CommandHandlers"
+    "\\Application\\CQRS\\Categories\\Handlers\\CommandHandlers",
+    "\\RestaurantManagement"
   ],
   "SelectedNode": "\\RestaurantManagement.sln",
   "PreviewInSolutionExplorer": false
