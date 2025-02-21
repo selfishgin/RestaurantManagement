@@ -3,100 +3,88 @@
   "WorkspaceRootPath": "C:\\Users\\Antec\\Desktop\\RestaurantManagement\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8CA1FF95-4DB2-43C7-BB22-E2B6487A851C}|DAL.SqlServer\\DAL.SqlServer.csproj|c:\\users\\antec\\desktop\\restaurantmanagement\\dal.sqlserver\\infrastructure\\sqlcategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8CA1FF95-4DB2-43C7-BB22-E2B6487A851C}|DAL.SqlServer\\DAL.SqlServer.csproj|solutionrelative:dal.sqlserver\\infrastructure\\sqlcategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A87293BD-C22E-4B54-B997-0937E21F8DCB}|RestaurantManagement\\RestaurantManagement.csproj|c:\\users\\antec\\desktop\\restaurantmanagement\\restaurantmanagement\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{A87293BD-C22E-4B54-B997-0937E21F8DCB}|RestaurantManagement\\RestaurantManagement.csproj|solutionrelative:restaurantmanagement\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Antec\\Desktop\\RestaurantManagement\\SQLQuery1FromDantes.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SQLQuery1FromDantes.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A87293BD-C22E-4B54-B997-0937E21F8DCB}|RestaurantManagement\\RestaurantManagement.csproj|c:\\users\\antec\\desktop\\restaurantmanagement\\restaurantmanagement\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A87293BD-C22E-4B54-B997-0937E21F8DCB}|RestaurantManagement\\RestaurantManagement.csproj|solutionrelative:restaurantmanagement\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B0F3D0A9-87BB-4251-9AC8-B1CBE1570911}|Application\\Application.csproj|c:\\users\\antec\\desktop\\restaurantmanagement\\application\\cqrs\\categories\\handlers\\commandhandlers\\deletecategoryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B0F3D0A9-87BB-4251-9AC8-B1CBE1570911}|Application\\Application.csproj|solutionrelative:application\\cqrs\\categories\\handlers\\commandhandlers\\deletecategoryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Antec\\Desktop\\RestaurantManagement\\SQLQuery2.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SQLQuery2.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B0F3D0A9-87BB-4251-9AC8-B1CBE1570911}|Application\\Application.csproj|c:\\users\\antec\\desktop\\restaurantmanagement\\application\\cqrs\\categories\\commands\\responds\\deletecategoryresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B0F3D0A9-87BB-4251-9AC8-B1CBE1570911}|Application\\Application.csproj|solutionrelative:application\\cqrs\\categories\\commands\\responds\\deletecategoryresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B0F3D0A9-87BB-4251-9AC8-B1CBE1570911}|Application\\Application.csproj|c:\\users\\antec\\desktop\\restaurantmanagement\\application\\cqrs\\categories\\commands\\requests\\deletecategoryrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B0F3D0A9-87BB-4251-9AC8-B1CBE1570911}|Application\\Application.csproj|solutionrelative:application\\cqrs\\categories\\commands\\requests\\deletecategoryrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A87293BD-C22E-4B54-B997-0937E21F8DCB}|RestaurantManagement\\RestaurantManagement.csproj|c:\\users\\antec\\desktop\\restaurantmanagement\\restaurantmanagement\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A87293BD-C22E-4B54-B997-0937E21F8DCB}|RestaurantManagement\\RestaurantManagement.csproj|solutionrelative:restaurantmanagement\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B0F3D0A9-87BB-4251-9AC8-B1CBE1570911}|Application\\Application.csproj|c:\\users\\antec\\desktop\\restaurantmanagement\\application\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B0F3D0A9-87BB-4251-9AC8-B1CBE1570911}|Application\\Application.csproj|solutionrelative:application\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{91F2BE60-B63A-4D32-ABE3-0DDCA81BB7A3}|Common\\Common.csproj|c:\\users\\antec\\desktop\\restaurantmanagement\\common\\globalresponse\\generics\\responsemodelpagination.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{91F2BE60-B63A-4D32-ABE3-0DDCA81BB7A3}|Common\\Common.csproj|solutionrelative:common\\globalresponse\\generics\\responsemodelpagination.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A87293BD-C22E-4B54-B997-0937E21F8DCB}|RestaurantManagement\\RestaurantManagement.csproj|c:\\users\\antec\\desktop\\restaurantmanagement\\restaurantmanagement\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A87293BD-C22E-4B54-B997-0937E21F8DCB}|RestaurantManagement\\RestaurantManagement.csproj|solutionrelative:restaurantmanagement\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{91F2BE60-B63A-4D32-ABE3-0DDCA81BB7A3}|Common\\Common.csproj|c:\\users\\antec\\desktop\\restaurantmanagement\\common\\globalresponse\\generics\\pagination.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{91F2BE60-B63A-4D32-ABE3-0DDCA81BB7A3}|Common\\Common.csproj|solutionrelative:common\\globalresponse\\generics\\pagination.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B0F3D0A9-87BB-4251-9AC8-B1CBE1570911}|Application\\Application.csproj|c:\\users\\antec\\desktop\\restaurantmanagement\\application\\automapper\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0F3D0A9-87BB-4251-9AC8-B1CBE1570911}|Application\\Application.csproj|solutionrelative:application\\automapper\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B0F3D0A9-87BB-4251-9AC8-B1CBE1570911}|Application\\Application.csproj|c:\\users\\antec\\desktop\\restaurantmanagement\\application\\cqrs\\categories\\handlers\\commandhandlers\\createcategoryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B0F3D0A9-87BB-4251-9AC8-B1CBE1570911}|Application\\Application.csproj|solutionrelative:application\\cqrs\\categories\\handlers\\commandhandlers\\createcategoryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B0F3D0A9-87BB-4251-9AC8-B1CBE1570911}|Application\\Application.csproj|c:\\users\\antec\\desktop\\restaurantmanagement\\application\\cqrs\\categories\\queries\\requests\\getallcategoryrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B0F3D0A9-87BB-4251-9AC8-B1CBE1570911}|Application\\Application.csproj|solutionrelative:application\\cqrs\\categories\\queries\\requests\\getallcategoryrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Antec\\Desktop\\RestaurantManagement\\SQLQuery1.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SQLQuery1.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8CA1FF95-4DB2-43C7-BB22-E2B6487A851C}|DAL.SqlServer\\DAL.SqlServer.csproj|c:\\users\\antec\\desktop\\restaurantmanagement\\dal.sqlserver\\dependencyinjections.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8CA1FF95-4DB2-43C7-BB22-E2B6487A851C}|DAL.SqlServer\\DAL.SqlServer.csproj|solutionrelative:dal.sqlserver\\dependencyinjections.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B0F3D0A9-87BB-4251-9AC8-B1CBE1570911}|Application\\Application.csproj|c:\\users\\antec\\desktop\\restaurantmanagement\\application\\cqrs\\users\\handlers\\getbyid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0F3D0A9-87BB-4251-9AC8-B1CBE1570911}|Application\\Application.csproj|solutionrelative:application\\cqrs\\users\\handlers\\getbyid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B0F3D0A9-87BB-4251-9AC8-B1CBE1570911}|Application\\Application.csproj|c:\\users\\antec\\desktop\\restaurantmanagement\\application\\cqrs\\categories\\handlers\\queryhandlers\\getallcategoryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B0F3D0A9-87BB-4251-9AC8-B1CBE1570911}|Application\\Application.csproj|solutionrelative:application\\cqrs\\categories\\handlers\\queryhandlers\\getallcategoryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{991A4722-28BF-4CE1-9CC1-FA5376E2054F}|Repository\\Repository.csproj|c:\\users\\antec\\desktop\\restaurantmanagement\\repository\\common\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{991A4722-28BF-4CE1-9CC1-FA5376E2054F}|Repository\\Repository.csproj|solutionrelative:repository\\common\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B0F3D0A9-87BB-4251-9AC8-B1CBE1570911}|Application\\Application.csproj|c:\\users\\antec\\desktop\\restaurantmanagement\\application\\cqrs\\categories\\handlers\\queryhandlers\\getbyidcategoryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B0F3D0A9-87BB-4251-9AC8-B1CBE1570911}|Application\\Application.csproj|solutionrelative:application\\cqrs\\categories\\handlers\\queryhandlers\\getbyidcategoryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8CA1FF95-4DB2-43C7-BB22-E2B6487A851C}|DAL.SqlServer\\DAL.SqlServer.csproj|c:\\users\\antec\\desktop\\restaurantmanagement\\dal.sqlserver\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CA1FF95-4DB2-43C7-BB22-E2B6487A851C}|DAL.SqlServer\\DAL.SqlServer.csproj|solutionrelative:dal.sqlserver\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B0F3D0A9-87BB-4251-9AC8-B1CBE1570911}|Application\\Application.csproj|c:\\users\\antec\\desktop\\restaurantmanagement\\application\\cqrs\\categories\\queries\\responds\\getallcategoryresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B0F3D0A9-87BB-4251-9AC8-B1CBE1570911}|Application\\Application.csproj|solutionrelative:application\\cqrs\\categories\\queries\\responds\\getallcategoryresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8CA1FF95-4DB2-43C7-BB22-E2B6487A851C}|DAL.SqlServer\\DAL.SqlServer.csproj|c:\\users\\antec\\desktop\\restaurantmanagement\\dal.sqlserver\\infrastructure\\sqluserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CA1FF95-4DB2-43C7-BB22-E2B6487A851C}|DAL.SqlServer\\DAL.SqlServer.csproj|solutionrelative:dal.sqlserver\\infrastructure\\sqluserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B0F3D0A9-87BB-4251-9AC8-B1CBE1570911}|Application\\Application.csproj|c:\\users\\antec\\desktop\\restaurantmanagement\\application\\cqrs\\categories\\commands\\requests\\createcategoryrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B0F3D0A9-87BB-4251-9AC8-B1CBE1570911}|Application\\Application.csproj|solutionrelative:application\\cqrs\\categories\\commands\\requests\\createcategoryrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{991A4722-28BF-4CE1-9CC1-FA5376E2054F}|Repository\\Repository.csproj|c:\\users\\antec\\desktop\\restaurantmanagement\\repository\\repositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{991A4722-28BF-4CE1-9CC1-FA5376E2054F}|Repository\\Repository.csproj|solutionrelative:repository\\repositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B0F3D0A9-87BB-4251-9AC8-B1CBE1570911}|Application\\Application.csproj|c:\\users\\antec\\desktop\\restaurantmanagement\\application\\cqrs\\categories\\commands\\responds\\createcategoryresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B0F3D0A9-87BB-4251-9AC8-B1CBE1570911}|Application\\Application.csproj|solutionrelative:application\\cqrs\\categories\\commands\\responds\\createcategoryresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8CA1FF95-4DB2-43C7-BB22-E2B6487A851C}|DAL.SqlServer\\DAL.SqlServer.csproj|c:\\users\\antec\\desktop\\restaurantmanagement\\dal.sqlserver\\unitofwork\\sqlunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CA1FF95-4DB2-43C7-BB22-E2B6487A851C}|DAL.SqlServer\\DAL.SqlServer.csproj|solutionrelative:dal.sqlserver\\unitofwork\\sqlunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B0F3D0A9-87BB-4251-9AC8-B1CBE1570911}|Application\\Application.csproj|c:\\users\\antec\\desktop\\restaurantmanagement\\application\\cqrs\\categories\\queries\\requests\\getbyidcategoryrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B0F3D0A9-87BB-4251-9AC8-B1CBE1570911}|Application\\Application.csproj|solutionrelative:application\\cqrs\\categories\\queries\\requests\\getbyidcategoryrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B0F3D0A9-87BB-4251-9AC8-B1CBE1570911}|Application\\Application.csproj|c:\\users\\antec\\desktop\\restaurantmanagement\\application\\cqrs\\users\\dtos\\getbyiddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0F3D0A9-87BB-4251-9AC8-B1CBE1570911}|Application\\Application.csproj|solutionrelative:application\\cqrs\\users\\dtos\\getbyiddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{998B908C-1C45-4300-8171-E8B7B219DAD4}|Domain\\Domain.csproj|c:\\users\\antec\\desktop\\restaurantmanagement\\domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{998B908C-1C45-4300-8171-E8B7B219DAD4}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CA1FF95-4DB2-43C7-BB22-E2B6487A851C}|DAL.SqlServer\\DAL.SqlServer.csproj|c:\\users\\antec\\desktop\\restaurantmanagement\\dal.sqlserver\\infrastructure\\basesqlrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CA1FF95-4DB2-43C7-BB22-E2B6487A851C}|DAL.SqlServer\\DAL.SqlServer.csproj|solutionrelative:dal.sqlserver\\infrastructure\\basesqlrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A87293BD-C22E-4B54-B997-0937E21F8DCB}|RestaurantManagement\\RestaurantManagement.csproj|c:\\users\\antec\\desktop\\restaurantmanagement\\restaurantmanagement\\middlewares\\exceptionhandlermiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A87293BD-C22E-4B54-B997-0937E21F8DCB}|RestaurantManagement\\RestaurantManagement.csproj|solutionrelative:restaurantmanagement\\middlewares\\exceptionhandlermiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A87293BD-C22E-4B54-B997-0937E21F8DCB}|RestaurantManagement\\RestaurantManagement.csproj|c:\\users\\antec\\desktop\\restaurantmanagement\\restaurantmanagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A87293BD-C22E-4B54-B997-0937E21F8DCB}|RestaurantManagement\\RestaurantManagement.csproj|solutionrelative:restaurantmanagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B0F3D0A9-87BB-4251-9AC8-B1CBE1570911}|Application\\Application.csproj|c:\\users\\antec\\desktop\\restaurantmanagement\\application\\cqrs\\categories\\queries\\responds\\getbyidcategoryresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B0F3D0A9-87BB-4251-9AC8-B1CBE1570911}|Application\\Application.csproj|solutionrelative:application\\cqrs\\categories\\queries\\responds\\getbyidcategoryresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B0F3D0A9-87BB-4251-9AC8-B1CBE1570911}|Application\\Application.csproj|c:\\users\\antec\\desktop\\restaurantmanagement\\application\\cqrs\\categories\\handlers\\commandhandlers\\deletecategoryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0F3D0A9-87BB-4251-9AC8-B1CBE1570911}|Application\\Application.csproj|solutionrelative:application\\cqrs\\categories\\handlers\\commandhandlers\\deletecategoryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Antec\\Desktop\\RestaurantManagement\\SQLQuery1FromDantes.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SQLQuery1FromDantes.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
+      "AbsoluteMoniker": "D:0:0:{8CA1FF95-4DB2-43C7-BB22-E2B6487A851C}|DAL.SqlServer\\DAL.SqlServer.csproj|c:\\users\\antec\\desktop\\restaurantmanagement\\dal.sqlserver\\infrastructure\\sqlcategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CA1FF95-4DB2-43C7-BB22-E2B6487A851C}|DAL.SqlServer\\DAL.SqlServer.csproj|solutionrelative:dal.sqlserver\\infrastructure\\sqlcategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Antec\\Desktop\\RestaurantManagement\\SQLQuery1FromDantes.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|ResultFrame",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SQLQuery1FromDantes.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|ResultFrame"
+      "AbsoluteMoniker": "D:0:0:{8CA1FF95-4DB2-43C7-BB22-E2B6487A851C}|DAL.SqlServer\\DAL.SqlServer.csproj|c:\\users\\antec\\desktop\\restaurantmanagement\\dal.sqlserver\\dal.sqlserver.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{8CA1FF95-4DB2-43C7-BB22-E2B6487A851C}|DAL.SqlServer\\DAL.SqlServer.csproj|solutionrelative:dal.sqlserver\\dal.sqlserver.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A87293BD-C22E-4B54-B997-0937E21F8DCB}|RestaurantManagement\\RestaurantManagement.csproj|c:\\users\\antec\\desktop\\restaurantmanagement\\restaurantmanagement\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A87293BD-C22E-4B54-B997-0937E21F8DCB}|RestaurantManagement\\RestaurantManagement.csproj|solutionrelative:restaurantmanagement\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -106,277 +94,267 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 4,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Antec\\Desktop\\RestaurantManagement\\RestaurantManagement\\appsettings.json",
+              "RelativeDocumentMoniker": "RestaurantManagement\\appsettings.json",
+              "ToolTip": "C:\\Users\\Antec\\Desktop\\RestaurantManagement\\RestaurantManagement\\appsettings.json",
+              "RelativeToolTip": "RestaurantManagement\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-21T05:06:00.59Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "DeleteCategoryRequest.cs",
-              "DocumentMoniker": "C:\\Users\\Antec\\Desktop\\RestaurantManagement\\Application\\CQRS\\Categories\\Commands\\Requests\\DeleteCategoryRequest.cs",
-              "RelativeDocumentMoniker": "Application\\CQRS\\Categories\\Commands\\Requests\\DeleteCategoryRequest.cs",
-              "ToolTip": "C:\\Users\\Antec\\Desktop\\RestaurantManagement\\Application\\CQRS\\Categories\\Commands\\Requests\\DeleteCategoryRequest.cs",
-              "RelativeToolTip": "Application\\CQRS\\Categories\\Commands\\Requests\\DeleteCategoryRequest.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAYAAABNAAAA",
+              "DocumentIndex": 3,
+              "Title": "MappingProfile.cs",
+              "DocumentMoniker": "C:\\Users\\Antec\\Desktop\\RestaurantManagement\\Application\\AutoMapper\\MappingProfile.cs",
+              "RelativeDocumentMoniker": "Application\\AutoMapper\\MappingProfile.cs",
+              "ToolTip": "C:\\Users\\Antec\\Desktop\\RestaurantManagement\\Application\\AutoMapper\\MappingProfile.cs",
+              "RelativeToolTip": "Application\\AutoMapper\\MappingProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-14T07:54:48.937Z"
+              "WhenOpened": "2025-02-19T07:28:56.203Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 1,
               "Title": "DependencyInjection.cs",
               "DocumentMoniker": "C:\\Users\\Antec\\Desktop\\RestaurantManagement\\Application\\DependencyInjection.cs",
               "RelativeDocumentMoniker": "Application\\DependencyInjection.cs",
               "ToolTip": "C:\\Users\\Antec\\Desktop\\RestaurantManagement\\Application\\DependencyInjection.cs",
               "RelativeToolTip": "Application\\DependencyInjection.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-14T05:58:15.491Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Antec\\Desktop\\RestaurantManagement\\RestaurantManagement\\appsettings.json",
-              "RelativeDocumentMoniker": "RestaurantManagement\\appsettings.json",
-              "ToolTip": "C:\\Users\\Antec\\Desktop\\RestaurantManagement\\RestaurantManagement\\appsettings.json",
-              "RelativeToolTip": "RestaurantManagement\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAADqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-02-14T06:08:57.931Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ResponseModelPagination.cs",
-              "DocumentMoniker": "C:\\Users\\Antec\\Desktop\\RestaurantManagement\\Common\\GlobalResponse\\Generics\\ResponseModelPagination.cs",
-              "RelativeDocumentMoniker": "Common\\GlobalResponse\\Generics\\ResponseModelPagination.cs",
-              "ToolTip": "C:\\Users\\Antec\\Desktop\\RestaurantManagement\\Common\\GlobalResponse\\Generics\\ResponseModelPagination.cs",
-              "RelativeToolTip": "Common\\GlobalResponse\\Generics\\ResponseModelPagination.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAoAAAASAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-14T06:24:13.933Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Pagination.cs",
-              "DocumentMoniker": "C:\\Users\\Antec\\Desktop\\RestaurantManagement\\Common\\GlobalResponse\\Generics\\Pagination.cs",
-              "RelativeDocumentMoniker": "Common\\GlobalResponse\\Generics\\Pagination.cs",
-              "ToolTip": "C:\\Users\\Antec\\Desktop\\RestaurantManagement\\Common\\GlobalResponse\\Generics\\Pagination.cs",
-              "RelativeToolTip": "Common\\GlobalResponse\\Generics\\Pagination.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-14T06:18:32.35Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "CreateCategoryHandler.cs",
-              "DocumentMoniker": "C:\\Users\\Antec\\Desktop\\RestaurantManagement\\Application\\CQRS\\Categories\\Handlers\\CommandHandlers\\CreateCategoryHandler.cs",
-              "RelativeDocumentMoniker": "Application\\CQRS\\Categories\\Handlers\\CommandHandlers\\CreateCategoryHandler.cs",
-              "ToolTip": "C:\\Users\\Antec\\Desktop\\RestaurantManagement\\Application\\CQRS\\Categories\\Handlers\\CommandHandlers\\CreateCategoryHandler.cs",
-              "RelativeToolTip": "Application\\CQRS\\Categories\\Handlers\\CommandHandlers\\CreateCategoryHandler.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAkAAABiAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-14T06:15:27.665Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CategoryController.cs",
-              "DocumentMoniker": "C:\\Users\\Antec\\Desktop\\RestaurantManagement\\RestaurantManagement\\Controllers\\CategoryController.cs",
-              "RelativeDocumentMoniker": "RestaurantManagement\\Controllers\\CategoryController.cs",
-              "ToolTip": "C:\\Users\\Antec\\Desktop\\RestaurantManagement\\RestaurantManagement\\Controllers\\CategoryController.cs",
-              "RelativeToolTip": "RestaurantManagement\\Controllers\\CategoryController.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAowB4AAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-14T05:59:44.481Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "DeleteCategoryHandler.cs",
-              "DocumentMoniker": "C:\\Users\\Antec\\Desktop\\RestaurantManagement\\Application\\CQRS\\Categories\\Handlers\\CommandHandlers\\DeleteCategoryHandler.cs",
-              "RelativeDocumentMoniker": "Application\\CQRS\\Categories\\Handlers\\CommandHandlers\\DeleteCategoryHandler.cs",
-              "ToolTip": "C:\\Users\\Antec\\Desktop\\RestaurantManagement\\Application\\CQRS\\Categories\\Handlers\\CommandHandlers\\DeleteCategoryHandler.cs",
-              "RelativeToolTip": "Application\\CQRS\\Categories\\Handlers\\CommandHandlers\\DeleteCategoryHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-14T07:59:14.956Z",
+              "WhenOpened": "2025-02-19T07:28:11.973Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "SqlCategoryRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Antec\\Desktop\\RestaurantManagement\\DAL.SqlServer\\Infrastructure\\SqlCategoryRepository.cs",
-              "RelativeDocumentMoniker": "DAL.SqlServer\\Infrastructure\\SqlCategoryRepository.cs",
-              "ToolTip": "C:\\Users\\Antec\\Desktop\\RestaurantManagement\\DAL.SqlServer\\Infrastructure\\SqlCategoryRepository.cs",
-              "RelativeToolTip": "DAL.SqlServer\\Infrastructure\\SqlCategoryRepository.cs",
-              "ViewState": "AgIAADUAAAAAAAAAAAAAAEIAAABaAAAAAAAAAA==",
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\Antec\\Desktop\\RestaurantManagement\\RestaurantManagement\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "RestaurantManagement\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\Antec\\Desktop\\RestaurantManagement\\RestaurantManagement\\Controllers\\UserController.cs",
+              "RelativeToolTip": "RestaurantManagement\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-14T06:17:01.304Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "SQLQuery1FromDantes.sql ",
-              "DocumentMoniker": "C:\\Users\\Antec\\Desktop\\RestaurantManagement\\SQLQuery1FromDantes.sql",
-              "RelativeDocumentMoniker": "SQLQuery1FromDantes.sql",
-              "ToolTip": "SQLQuery1FromDantes.sql ",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2025-02-16T18:51:40.394Z",
+              "WhenOpened": "2025-02-19T07:07:33.69Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "DeleteCategoryResponse.cs",
-              "DocumentMoniker": "C:\\Users\\Antec\\Desktop\\RestaurantManagement\\Application\\CQRS\\Categories\\Commands\\Responds\\DeleteCategoryResponse.cs",
-              "RelativeDocumentMoniker": "Application\\CQRS\\Categories\\Commands\\Responds\\DeleteCategoryResponse.cs",
-              "ToolTip": "C:\\Users\\Antec\\Desktop\\RestaurantManagement\\Application\\CQRS\\Categories\\Commands\\Responds\\DeleteCategoryResponse.cs",
-              "RelativeToolTip": "Application\\CQRS\\Categories\\Commands\\Responds\\DeleteCategoryResponse.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAUAAAA",
+              "Title": "GetById.cs",
+              "DocumentMoniker": "C:\\Users\\Antec\\Desktop\\RestaurantManagement\\Application\\CQRS\\Users\\Handlers\\GetById.cs",
+              "RelativeDocumentMoniker": "Application\\CQRS\\Users\\Handlers\\GetById.cs",
+              "ToolTip": "C:\\Users\\Antec\\Desktop\\RestaurantManagement\\Application\\CQRS\\Users\\Handlers\\GetById.cs",
+              "RelativeToolTip": "Application\\CQRS\\Users\\Handlers\\GetById.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAowBUAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-14T07:54:56.892Z"
+              "WhenOpened": "2025-02-19T06:24:50.162Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IUnitOfWork.cs",
+              "DocumentMoniker": "C:\\Users\\Antec\\Desktop\\RestaurantManagement\\Repository\\Common\\IUnitOfWork.cs",
+              "RelativeDocumentMoniker": "Repository\\Common\\IUnitOfWork.cs",
+              "ToolTip": "C:\\Users\\Antec\\Desktop\\RestaurantManagement\\Repository\\Common\\IUnitOfWork.cs",
+              "RelativeToolTip": "Repository\\Common\\IUnitOfWork.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-19T06:10:43.336Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Antec\\Desktop\\RestaurantManagement\\DAL.SqlServer\\Context\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "DAL.SqlServer\\Context\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\Antec\\Desktop\\RestaurantManagement\\DAL.SqlServer\\Context\\AppDbContext.cs",
+              "RelativeToolTip": "DAL.SqlServer\\Context\\AppDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-19T05:55:43.753Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "SqlUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Antec\\Desktop\\RestaurantManagement\\DAL.SqlServer\\Infrastructure\\SqlUserRepository.cs",
+              "RelativeDocumentMoniker": "DAL.SqlServer\\Infrastructure\\SqlUserRepository.cs",
+              "ToolTip": "C:\\Users\\Antec\\Desktop\\RestaurantManagement\\DAL.SqlServer\\Infrastructure\\SqlUserRepository.cs",
+              "RelativeToolTip": "DAL.SqlServer\\Infrastructure\\SqlUserRepository.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAA9wCoAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-19T05:54:09.17Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Antec\\Desktop\\RestaurantManagement\\Repository\\Repositories\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\Repositories\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\Antec\\Desktop\\RestaurantManagement\\Repository\\Repositories\\IUserRepository.cs",
+              "RelativeToolTip": "Repository\\Repositories\\IUserRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-19T05:44:08.168Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CreateCategoryHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Antec\\Desktop\\RestaurantManagement\\Application\\CQRS\\Categories\\Handlers\\CommandHandlers\\CreateCategoryHandler.cs",
+              "RelativeDocumentMoniker": "Application\\CQRS\\Categories\\Handlers\\CommandHandlers\\CreateCategoryHandler.cs",
+              "ToolTip": "C:\\Users\\Antec\\Desktop\\RestaurantManagement\\Application\\CQRS\\Categories\\Handlers\\CommandHandlers\\CreateCategoryHandler.cs",
+              "RelativeToolTip": "Application\\CQRS\\Categories\\Handlers\\CommandHandlers\\CreateCategoryHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T08:17:27.652Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "SqlUnitOfWork.cs",
+              "DocumentMoniker": "C:\\Users\\Antec\\Desktop\\RestaurantManagement\\DAL.SqlServer\\UnitOfWork\\SqlUnitOfWork.cs",
+              "RelativeDocumentMoniker": "DAL.SqlServer\\UnitOfWork\\SqlUnitOfWork.cs",
+              "ToolTip": "C:\\Users\\Antec\\Desktop\\RestaurantManagement\\DAL.SqlServer\\UnitOfWork\\SqlUnitOfWork.cs",
+              "RelativeToolTip": "DAL.SqlServer\\UnitOfWork\\SqlUnitOfWork.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAABWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-19T06:12:10.608Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 12,
-              "Title": "GetAllCategoryRequest.cs",
-              "DocumentMoniker": "C:\\Users\\Antec\\Desktop\\RestaurantManagement\\Application\\CQRS\\Categories\\Queries\\Requests\\GetAllCategoryRequest.cs",
-              "RelativeDocumentMoniker": "Application\\CQRS\\Categories\\Queries\\Requests\\GetAllCategoryRequest.cs",
-              "ToolTip": "C:\\Users\\Antec\\Desktop\\RestaurantManagement\\Application\\CQRS\\Categories\\Queries\\Requests\\GetAllCategoryRequest.cs",
-              "RelativeToolTip": "Application\\CQRS\\Categories\\Queries\\Requests\\GetAllCategoryRequest.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAcAAAABAAAA",
+              "Title": "GetByIdDto.cs",
+              "DocumentMoniker": "C:\\Users\\Antec\\Desktop\\RestaurantManagement\\Application\\CQRS\\Users\\DTOs\\GetByIdDto.cs",
+              "RelativeDocumentMoniker": "Application\\CQRS\\Users\\DTOs\\GetByIdDto.cs",
+              "ToolTip": "C:\\Users\\Antec\\Desktop\\RestaurantManagement\\Application\\CQRS\\Users\\DTOs\\GetByIdDto.cs",
+              "RelativeToolTip": "Application\\CQRS\\Users\\DTOs\\GetByIdDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-14T07:05:18.585Z"
+              "WhenOpened": "2025-02-19T06:19:06.49Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SQLQuery1.sql",
+              "DocumentMoniker": "C:\\Users\\Antec\\Desktop\\RestaurantManagement\\SQLQuery1.sql",
+              "RelativeDocumentMoniker": "SQLQuery1.sql",
+              "ToolTip": "C:\\Users\\Antec\\Desktop\\RestaurantManagement\\SQLQuery1.sql",
+              "RelativeToolTip": "SQLQuery1.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-02-19T05:41:02.324Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 13,
-              "Title": "DependencyInjections.cs",
-              "DocumentMoniker": "C:\\Users\\Antec\\Desktop\\RestaurantManagement\\DAL.SqlServer\\DependencyInjections.cs",
-              "RelativeDocumentMoniker": "DAL.SqlServer\\DependencyInjections.cs",
-              "ToolTip": "C:\\Users\\Antec\\Desktop\\RestaurantManagement\\DAL.SqlServer\\DependencyInjections.cs",
-              "RelativeToolTip": "DAL.SqlServer\\DependencyInjections.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAADAAAA",
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Antec\\Desktop\\RestaurantManagement\\Domain\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\User.cs",
+              "ToolTip": "C:\\Users\\Antec\\Desktop\\RestaurantManagement\\Domain\\Entities\\User.cs",
+              "RelativeToolTip": "Domain\\Entities\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-14T06:00:34.995Z"
+              "WhenOpened": "2025-02-19T05:40:09.216Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 14,
-              "Title": "GetAllCategoryHandler.cs",
-              "DocumentMoniker": "C:\\Users\\Antec\\Desktop\\RestaurantManagement\\Application\\CQRS\\Categories\\Handlers\\QueryHandlers\\GetAllCategoryHandler.cs",
-              "RelativeDocumentMoniker": "Application\\CQRS\\Categories\\Handlers\\QueryHandlers\\GetAllCategoryHandler.cs",
-              "ToolTip": "C:\\Users\\Antec\\Desktop\\RestaurantManagement\\Application\\CQRS\\Categories\\Handlers\\QueryHandlers\\GetAllCategoryHandler.cs",
-              "RelativeToolTip": "Application\\CQRS\\Categories\\Handlers\\QueryHandlers\\GetAllCategoryHandler.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABwAAAAFAAAA",
+              "Title": "BaseSqlRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Antec\\Desktop\\RestaurantManagement\\DAL.SqlServer\\Infrastructure\\BaseSqlRepository.cs",
+              "RelativeDocumentMoniker": "DAL.SqlServer\\Infrastructure\\BaseSqlRepository.cs",
+              "ToolTip": "C:\\Users\\Antec\\Desktop\\RestaurantManagement\\DAL.SqlServer\\Infrastructure\\BaseSqlRepository.cs",
+              "RelativeToolTip": "DAL.SqlServer\\Infrastructure\\BaseSqlRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-14T07:09:02.669Z"
+              "WhenOpened": "2025-02-17T08:18:55.642Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 15,
-              "Title": "GetByIdCategoryHandler.cs",
-              "DocumentMoniker": "C:\\Users\\Antec\\Desktop\\RestaurantManagement\\Application\\CQRS\\Categories\\Handlers\\QueryHandlers\\GetByIdCategoryHandler.cs",
-              "RelativeDocumentMoniker": "Application\\CQRS\\Categories\\Handlers\\QueryHandlers\\GetByIdCategoryHandler.cs",
-              "ToolTip": "C:\\Users\\Antec\\Desktop\\RestaurantManagement\\Application\\CQRS\\Categories\\Handlers\\QueryHandlers\\GetByIdCategoryHandler.cs",
-              "RelativeToolTip": "Application\\CQRS\\Categories\\Handlers\\QueryHandlers\\GetByIdCategoryHandler.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAcAAAAuAAAA",
+              "Title": "ExceptionHandlerMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\Antec\\Desktop\\RestaurantManagement\\RestaurantManagement\\Middlewares\\ExceptionHandlerMiddleware.cs",
+              "RelativeDocumentMoniker": "RestaurantManagement\\Middlewares\\ExceptionHandlerMiddleware.cs",
+              "ToolTip": "C:\\Users\\Antec\\Desktop\\RestaurantManagement\\RestaurantManagement\\Middlewares\\ExceptionHandlerMiddleware.cs",
+              "RelativeToolTip": "RestaurantManagement\\Middlewares\\ExceptionHandlerMiddleware.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAA2AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-14T05:58:57.098Z"
+              "WhenOpened": "2025-02-17T08:18:34.154Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 16,
-              "Title": "GetAllCategoryResponse.cs",
-              "DocumentMoniker": "C:\\Users\\Antec\\Desktop\\RestaurantManagement\\Application\\CQRS\\Categories\\Queries\\Responds\\GetAllCategoryResponse.cs",
-              "RelativeDocumentMoniker": "Application\\CQRS\\Categories\\Queries\\Responds\\GetAllCategoryResponse.cs",
-              "ToolTip": "C:\\Users\\Antec\\Desktop\\RestaurantManagement\\Application\\CQRS\\Categories\\Queries\\Responds\\GetAllCategoryResponse.cs",
-              "RelativeToolTip": "Application\\CQRS\\Categories\\Queries\\Responds\\GetAllCategoryResponse.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAqAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-14T07:02:31.834Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "CreateCategoryRequest.cs",
-              "DocumentMoniker": "C:\\Users\\Antec\\Desktop\\RestaurantManagement\\Application\\CQRS\\Categories\\Commands\\Requests\\CreateCategoryRequest.cs",
-              "RelativeDocumentMoniker": "Application\\CQRS\\Categories\\Commands\\Requests\\CreateCategoryRequest.cs",
-              "ToolTip": "C:\\Users\\Antec\\Desktop\\RestaurantManagement\\Application\\CQRS\\Categories\\Commands\\Requests\\CreateCategoryRequest.cs",
-              "RelativeToolTip": "Application\\CQRS\\Categories\\Commands\\Requests\\CreateCategoryRequest.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAgAAAAiAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-14T06:15:04.497Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "CreateCategoryResponse.cs",
-              "DocumentMoniker": "C:\\Users\\Antec\\Desktop\\RestaurantManagement\\Application\\CQRS\\Categories\\Commands\\Responds\\CreateCategoryResponse.cs",
-              "RelativeDocumentMoniker": "Application\\CQRS\\Categories\\Commands\\Responds\\CreateCategoryResponse.cs",
-              "ToolTip": "C:\\Users\\Antec\\Desktop\\RestaurantManagement\\Application\\CQRS\\Categories\\Commands\\Responds\\CreateCategoryResponse.cs",
-              "RelativeToolTip": "Application\\CQRS\\Categories\\Commands\\Responds\\CreateCategoryResponse.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-14T06:15:10.346Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "GetByIdCategoryRequest.cs",
-              "DocumentMoniker": "C:\\Users\\Antec\\Desktop\\RestaurantManagement\\Application\\CQRS\\Categories\\Queries\\Requests\\GetByIdCategoryRequest.cs",
-              "RelativeDocumentMoniker": "Application\\CQRS\\Categories\\Queries\\Requests\\GetByIdCategoryRequest.cs",
-              "ToolTip": "C:\\Users\\Antec\\Desktop\\RestaurantManagement\\Application\\CQRS\\Categories\\Queries\\Requests\\GetByIdCategoryRequest.cs",
-              "RelativeToolTip": "Application\\CQRS\\Categories\\Queries\\Requests\\GetByIdCategoryRequest.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAoAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-14T05:59:01.659Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Antec\\Desktop\\RestaurantManagement\\RestaurantManagement\\Program.cs",
               "RelativeDocumentMoniker": "RestaurantManagement\\Program.cs",
               "ToolTip": "C:\\Users\\Antec\\Desktop\\RestaurantManagement\\RestaurantManagement\\Program.cs",
               "RelativeToolTip": "RestaurantManagement\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAABHAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAIBJwB8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-14T06:09:44.435Z"
+              "WhenOpened": "2025-02-17T08:18:16.147Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "SQLQuery2.sql",
-              "DocumentMoniker": "C:\\Users\\Antec\\Desktop\\RestaurantManagement\\SQLQuery2.sql",
-              "RelativeDocumentMoniker": "SQLQuery2.sql",
-              "ToolTip": "C:\\Users\\Antec\\Desktop\\RestaurantManagement\\SQLQuery2.sql",
-              "RelativeToolTip": "SQLQuery2.sql",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2025-02-14T06:06:05.107Z"
+              "DocumentIndex": 17,
+              "Title": "DeleteCategoryHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Antec\\Desktop\\RestaurantManagement\\Application\\CQRS\\Categories\\Handlers\\CommandHandlers\\DeleteCategoryHandler.cs",
+              "RelativeDocumentMoniker": "Application\\CQRS\\Categories\\Handlers\\CommandHandlers\\DeleteCategoryHandler.cs",
+              "ToolTip": "C:\\Users\\Antec\\Desktop\\RestaurantManagement\\Application\\CQRS\\Categories\\Handlers\\CommandHandlers\\DeleteCategoryHandler.cs",
+              "RelativeToolTip": "Application\\CQRS\\Categories\\Handlers\\CommandHandlers\\DeleteCategoryHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T08:17:15.844Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "GetByIdCategoryResponse.cs",
-              "DocumentMoniker": "C:\\Users\\Antec\\Desktop\\RestaurantManagement\\Application\\CQRS\\Categories\\Queries\\Responds\\GetByIdCategoryResponse.cs",
-              "RelativeDocumentMoniker": "Application\\CQRS\\Categories\\Queries\\Responds\\GetByIdCategoryResponse.cs",
-              "ToolTip": "C:\\Users\\Antec\\Desktop\\RestaurantManagement\\Application\\CQRS\\Categories\\Queries\\Responds\\GetByIdCategoryResponse.cs",
-              "RelativeToolTip": "Application\\CQRS\\Categories\\Queries\\Responds\\GetByIdCategoryResponse.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAABAAAA",
+              "DocumentIndex": 18,
+              "Title": "SqlCategoryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Antec\\Desktop\\RestaurantManagement\\DAL.SqlServer\\Infrastructure\\SqlCategoryRepository.cs",
+              "RelativeDocumentMoniker": "DAL.SqlServer\\Infrastructure\\SqlCategoryRepository.cs",
+              "ToolTip": "C:\\Users\\Antec\\Desktop\\RestaurantManagement\\DAL.SqlServer\\Infrastructure\\SqlCategoryRepository.cs",
+              "RelativeToolTip": "DAL.SqlServer\\Infrastructure\\SqlCategoryRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEYAAAADAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-14T05:59:07.914Z"
+              "WhenOpened": "2025-02-17T08:14:35.742Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "DAL.SqlServer.csproj",
+              "DocumentMoniker": "C:\\Users\\Antec\\Desktop\\RestaurantManagement\\DAL.SqlServer\\DAL.SqlServer.csproj",
+              "RelativeDocumentMoniker": "DAL.SqlServer\\DAL.SqlServer.csproj",
+              "ToolTip": "C:\\Users\\Antec\\Desktop\\RestaurantManagement\\DAL.SqlServer\\DAL.SqlServer.csproj",
+              "RelativeToolTip": "DAL.SqlServer\\DAL.SqlServer.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-02-17T08:14:32.463Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "C:\\Users\\Antec\\Desktop\\RestaurantManagement\\RestaurantManagement\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "RestaurantManagement\\Controllers\\CategoryController.cs",
+              "ToolTip": "C:\\Users\\Antec\\Desktop\\RestaurantManagement\\RestaurantManagement\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "RestaurantManagement\\Controllers\\CategoryController.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAgwCQAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T08:13:47.391Z"
             }
           ]
         }

@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Husey_ij91\\Desktop\\RestaurantManagement\\RestaurantManagement\\RestaurantManagement.csproj": {}
+    "C:\\Users\\Antec\\Desktop\\RestaurantManagement\\RestaurantManagement\\RestaurantManagement.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Husey_ij91\\Desktop\\RestaurantManagement\\Application\\Application.csproj": {
+    "C:\\Users\\Antec\\Desktop\\RestaurantManagement\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Husey_ij91\\Desktop\\RestaurantManagement\\Application\\Application.csproj",
+        "projectUniqueName": "C:\\Users\\Antec\\Desktop\\RestaurantManagement\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "C:\\Users\\Husey_ij91\\Desktop\\RestaurantManagement\\Application\\Application.csproj",
-        "packagesPath": "C:\\Users\\Husey_ij91\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Husey_ij91\\Desktop\\RestaurantManagement\\Application\\obj\\",
+        "projectPath": "C:\\Users\\Antec\\Desktop\\RestaurantManagement\\Application\\Application.csproj",
+        "packagesPath": "C:\\Users\\Antec\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Antec\\Desktop\\RestaurantManagement\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Husey_ij91\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Antec\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,18 +26,17 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Husey_ij91\\Desktop\\RestaurantManagement\\Common\\Common.csproj": {
-                "projectPath": "C:\\Users\\Husey_ij91\\Desktop\\RestaurantManagement\\Common\\Common.csproj"
+              "C:\\Users\\Antec\\Desktop\\RestaurantManagement\\Common\\Common.csproj": {
+                "projectPath": "C:\\Users\\Antec\\Desktop\\RestaurantManagement\\Common\\Common.csproj"
               },
-              "C:\\Users\\Husey_ij91\\Desktop\\RestaurantManagement\\Repository\\Repository.csproj": {
-                "projectPath": "C:\\Users\\Husey_ij91\\Desktop\\RestaurantManagement\\Repository\\Repository.csproj"
+              "C:\\Users\\Antec\\Desktop\\RestaurantManagement\\Repository\\Repository.csproj": {
+                "projectPath": "C:\\Users\\Antec\\Desktop\\RestaurantManagement\\Repository\\Repository.csproj"
               }
             }
           }
@@ -51,7 +50,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -60,6 +60,14 @@
             "AutoMapper": {
               "target": "Package",
               "version": "[14.0.0, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.11.0, )"
+            },
+            "FluentValidation.DependencyInjectionExtensions": {
+              "target": "Package",
+              "version": "[11.11.0, )"
             },
             "MediatR": {
               "target": "Package",
@@ -86,24 +94,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Husey_ij91\\Desktop\\RestaurantManagement\\Common\\Common.csproj": {
+    "C:\\Users\\Antec\\Desktop\\RestaurantManagement\\Common\\Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Husey_ij91\\Desktop\\RestaurantManagement\\Common\\Common.csproj",
+        "projectUniqueName": "C:\\Users\\Antec\\Desktop\\RestaurantManagement\\Common\\Common.csproj",
         "projectName": "Common",
-        "projectPath": "C:\\Users\\Husey_ij91\\Desktop\\RestaurantManagement\\Common\\Common.csproj",
-        "packagesPath": "C:\\Users\\Husey_ij91\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Husey_ij91\\Desktop\\RestaurantManagement\\Common\\obj\\",
+        "projectPath": "C:\\Users\\Antec\\Desktop\\RestaurantManagement\\Common\\Common.csproj",
+        "packagesPath": "C:\\Users\\Antec\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Antec\\Desktop\\RestaurantManagement\\Common\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Husey_ij91\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Antec\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -112,7 +120,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -130,7 +137,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -151,24 +159,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Husey_ij91\\Desktop\\RestaurantManagement\\DAL.SqlServer\\DAL.SqlServer.csproj": {
+    "C:\\Users\\Antec\\Desktop\\RestaurantManagement\\DAL.SqlServer\\DAL.SqlServer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Husey_ij91\\Desktop\\RestaurantManagement\\DAL.SqlServer\\DAL.SqlServer.csproj",
+        "projectUniqueName": "C:\\Users\\Antec\\Desktop\\RestaurantManagement\\DAL.SqlServer\\DAL.SqlServer.csproj",
         "projectName": "DAL.SqlServer",
-        "projectPath": "C:\\Users\\Husey_ij91\\Desktop\\RestaurantManagement\\DAL.SqlServer\\DAL.SqlServer.csproj",
-        "packagesPath": "C:\\Users\\Husey_ij91\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Husey_ij91\\Desktop\\RestaurantManagement\\DAL.SqlServer\\obj\\",
+        "projectPath": "C:\\Users\\Antec\\Desktop\\RestaurantManagement\\DAL.SqlServer\\DAL.SqlServer.csproj",
+        "packagesPath": "C:\\Users\\Antec\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Antec\\Desktop\\RestaurantManagement\\DAL.SqlServer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Husey_ij91\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Antec\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -177,21 +185,20 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Husey_ij91\\Desktop\\RestaurantManagement\\Common\\Common.csproj": {
-                "projectPath": "C:\\Users\\Husey_ij91\\Desktop\\RestaurantManagement\\Common\\Common.csproj"
+              "C:\\Users\\Antec\\Desktop\\RestaurantManagement\\Common\\Common.csproj": {
+                "projectPath": "C:\\Users\\Antec\\Desktop\\RestaurantManagement\\Common\\Common.csproj"
               },
-              "C:\\Users\\Husey_ij91\\Desktop\\RestaurantManagement\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\Husey_ij91\\Desktop\\RestaurantManagement\\Domain\\Domain.csproj"
+              "C:\\Users\\Antec\\Desktop\\RestaurantManagement\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\Antec\\Desktop\\RestaurantManagement\\Domain\\Domain.csproj"
               },
-              "C:\\Users\\Husey_ij91\\Desktop\\RestaurantManagement\\Repository\\Repository.csproj": {
-                "projectPath": "C:\\Users\\Husey_ij91\\Desktop\\RestaurantManagement\\Repository\\Repository.csproj"
+              "C:\\Users\\Antec\\Desktop\\RestaurantManagement\\Repository\\Repository.csproj": {
+                "projectPath": "C:\\Users\\Antec\\Desktop\\RestaurantManagement\\Repository\\Repository.csproj"
               }
             }
           }
@@ -205,7 +212,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -240,24 +248,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Husey_ij91\\Desktop\\RestaurantManagement\\Domain\\Domain.csproj": {
+    "C:\\Users\\Antec\\Desktop\\RestaurantManagement\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Husey_ij91\\Desktop\\RestaurantManagement\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Antec\\Desktop\\RestaurantManagement\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\Husey_ij91\\Desktop\\RestaurantManagement\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\Husey_ij91\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Husey_ij91\\Desktop\\RestaurantManagement\\Domain\\obj\\",
+        "projectPath": "C:\\Users\\Antec\\Desktop\\RestaurantManagement\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\Antec\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Antec\\Desktop\\RestaurantManagement\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Husey_ij91\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Antec\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -266,7 +274,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -284,7 +291,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -305,24 +313,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Husey_ij91\\Desktop\\RestaurantManagement\\Repository\\Repository.csproj": {
+    "C:\\Users\\Antec\\Desktop\\RestaurantManagement\\Repository\\Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Husey_ij91\\Desktop\\RestaurantManagement\\Repository\\Repository.csproj",
+        "projectUniqueName": "C:\\Users\\Antec\\Desktop\\RestaurantManagement\\Repository\\Repository.csproj",
         "projectName": "Repository",
-        "projectPath": "C:\\Users\\Husey_ij91\\Desktop\\RestaurantManagement\\Repository\\Repository.csproj",
-        "packagesPath": "C:\\Users\\Husey_ij91\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Husey_ij91\\Desktop\\RestaurantManagement\\Repository\\obj\\",
+        "projectPath": "C:\\Users\\Antec\\Desktop\\RestaurantManagement\\Repository\\Repository.csproj",
+        "packagesPath": "C:\\Users\\Antec\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Antec\\Desktop\\RestaurantManagement\\Repository\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Husey_ij91\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Antec\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -331,15 +339,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Husey_ij91\\Desktop\\RestaurantManagement\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\Husey_ij91\\Desktop\\RestaurantManagement\\Domain\\Domain.csproj"
+              "C:\\Users\\Antec\\Desktop\\RestaurantManagement\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\Antec\\Desktop\\RestaurantManagement\\Domain\\Domain.csproj"
               }
             }
           }
@@ -353,7 +360,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -374,24 +382,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Husey_ij91\\Desktop\\RestaurantManagement\\RestaurantManagement\\RestaurantManagement.csproj": {
+    "C:\\Users\\Antec\\Desktop\\RestaurantManagement\\RestaurantManagement\\RestaurantManagement.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Husey_ij91\\Desktop\\RestaurantManagement\\RestaurantManagement\\RestaurantManagement.csproj",
+        "projectUniqueName": "C:\\Users\\Antec\\Desktop\\RestaurantManagement\\RestaurantManagement\\RestaurantManagement.csproj",
         "projectName": "RestaurantManagement",
-        "projectPath": "C:\\Users\\Husey_ij91\\Desktop\\RestaurantManagement\\RestaurantManagement\\RestaurantManagement.csproj",
-        "packagesPath": "C:\\Users\\Husey_ij91\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Husey_ij91\\Desktop\\RestaurantManagement\\RestaurantManagement\\obj\\",
+        "projectPath": "C:\\Users\\Antec\\Desktop\\RestaurantManagement\\RestaurantManagement\\RestaurantManagement.csproj",
+        "packagesPath": "C:\\Users\\Antec\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Antec\\Desktop\\RestaurantManagement\\RestaurantManagement\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Husey_ij91\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Antec\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -400,18 +408,17 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Husey_ij91\\Desktop\\RestaurantManagement\\Application\\Application.csproj": {
-                "projectPath": "C:\\Users\\Husey_ij91\\Desktop\\RestaurantManagement\\Application\\Application.csproj"
+              "C:\\Users\\Antec\\Desktop\\RestaurantManagement\\Application\\Application.csproj": {
+                "projectPath": "C:\\Users\\Antec\\Desktop\\RestaurantManagement\\Application\\Application.csproj"
               },
-              "C:\\Users\\Husey_ij91\\Desktop\\RestaurantManagement\\DAL.SqlServer\\DAL.SqlServer.csproj": {
-                "projectPath": "C:\\Users\\Husey_ij91\\Desktop\\RestaurantManagement\\DAL.SqlServer\\DAL.SqlServer.csproj"
+              "C:\\Users\\Antec\\Desktop\\RestaurantManagement\\DAL.SqlServer\\DAL.SqlServer.csproj": {
+                "projectPath": "C:\\Users\\Antec\\Desktop\\RestaurantManagement\\DAL.SqlServer\\DAL.SqlServer.csproj"
               }
             }
           }
@@ -425,7 +432,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -455,7 +463,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

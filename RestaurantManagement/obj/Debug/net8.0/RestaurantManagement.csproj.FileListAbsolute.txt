@@ -204,3 +204,4 @@ C:\Users\Husey_ij91\Desktop\RestaurantManagement\RestaurantManagement\obj\Debug\
 C:\Users\Husey_ij91\Desktop\RestaurantManagement\RestaurantManagement\obj\Debug\net8.0\RestaurantManagement.pdb
 C:\Users\Husey_ij91\Desktop\RestaurantManagement\RestaurantManagement\obj\Debug\net8.0\RestaurantManagement.genruntimeconfig.cache
 C:\Users\Husey_ij91\Desktop\RestaurantManagement\RestaurantManagement\obj\Debug\net8.0\ref\RestaurantManagement.dll
+C:\Users\Antec\Desktop\RestaurantManagement\RestaurantManagement\bin\Debug\net8.0\AutoMapper.dll

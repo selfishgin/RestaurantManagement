@@ -47,3 +47,5 @@ C:\Users\Husey_ij91\Desktop\RestaurantManagement\DAL.SqlServer\obj\Debug\net8.0\
 C:\Users\Husey_ij91\Desktop\RestaurantManagement\DAL.SqlServer\obj\Debug\net8.0\refint\DAL.SqlServer.dll
 C:\Users\Husey_ij91\Desktop\RestaurantManagement\DAL.SqlServer\obj\Debug\net8.0\DAL.SqlServer.pdb
 C:\Users\Husey_ij91\Desktop\RestaurantManagement\DAL.SqlServer\obj\Debug\net8.0\ref\DAL.SqlServer.dll
+C:\Users\Antec\Desktop\RestaurantManagement\DAL.SqlServer\bin\Debug\net8.0\Common.dll
+C:\Users\Antec\Desktop\RestaurantManagement\DAL.SqlServer\bin\Debug\net8.0\Common.pdb

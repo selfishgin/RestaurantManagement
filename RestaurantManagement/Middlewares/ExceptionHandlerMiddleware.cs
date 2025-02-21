@@ -1,5 +1,6 @@
 ﻿using Common.Exceptions;
 using Common.GlobalRespons;
+using System.Data;
 using System.Net;
 using System.Text.Json;
 
@@ -28,6 +29,11 @@ public class ExceptionHandlerMiddleware(RequestDelegate next)
 					message = new List<string>() { error.Message };
 					await WriteError(context, HttpStatusCode.NotFound, message);
 					break;
+
+				//default:
+				//	message = new List<string>() { error.Message };
+				//	await WriteError(context, HttpStatusCode.InternalServerError, message);
+				//	break;
 			}
 		}
 
