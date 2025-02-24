@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Antec\\Desktop\\RestaurantManagement\\Repository\\Repository.csproj": {}
+    "C:\\Users\\Antec\\Desktop\\RestaurantManagement_FBMS_1_23_4_az\\Repository\\Repository.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Antec\\Desktop\\RestaurantManagement\\Domain\\Domain.csproj": {
+    "C:\\Users\\Antec\\Desktop\\RestaurantManagement_FBMS_1_23_4_az\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Antec\\Desktop\\RestaurantManagement\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Antec\\Desktop\\RestaurantManagement_FBMS_1_23_4_az\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\Antec\\Desktop\\RestaurantManagement\\Domain\\Domain.csproj",
+        "projectPath": "C:\\Users\\Antec\\Desktop\\RestaurantManagement_FBMS_1_23_4_az\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\Antec\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Antec\\Desktop\\RestaurantManagement\\Domain\\obj\\",
+        "outputPath": "C:\\Users\\Antec\\Desktop\\RestaurantManagement_FBMS_1_23_4_az\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -69,14 +69,14 @@
         }
       }
     },
-    "C:\\Users\\Antec\\Desktop\\RestaurantManagement\\Repository\\Repository.csproj": {
+    "C:\\Users\\Antec\\Desktop\\RestaurantManagement_FBMS_1_23_4_az\\Repository\\Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Antec\\Desktop\\RestaurantManagement\\Repository\\Repository.csproj",
+        "projectUniqueName": "C:\\Users\\Antec\\Desktop\\RestaurantManagement_FBMS_1_23_4_az\\Repository\\Repository.csproj",
         "projectName": "Repository",
-        "projectPath": "C:\\Users\\Antec\\Desktop\\RestaurantManagement\\Repository\\Repository.csproj",
+        "projectPath": "C:\\Users\\Antec\\Desktop\\RestaurantManagement_FBMS_1_23_4_az\\Repository\\Repository.csproj",
         "packagesPath": "C:\\Users\\Antec\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Antec\\Desktop\\RestaurantManagement\\Repository\\obj\\",
+        "outputPath": "C:\\Users\\Antec\\Desktop\\RestaurantManagement_FBMS_1_23_4_az\\Repository\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -97,8 +97,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Antec\\Desktop\\RestaurantManagement\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\Antec\\Desktop\\RestaurantManagement\\Domain\\Domain.csproj"
+              "C:\\Users\\Antec\\Desktop\\RestaurantManagement_FBMS_1_23_4_az\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\Antec\\Desktop\\RestaurantManagement_FBMS_1_23_4_az\\Domain\\Domain.csproj"
               }
             }
           }

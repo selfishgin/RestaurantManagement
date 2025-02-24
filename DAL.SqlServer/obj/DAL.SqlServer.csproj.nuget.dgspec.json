@@ -1,82 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Antec\\Desktop\\RestaurantManagement\\DAL.SqlServer\\DAL.SqlServer.csproj": {}
+    "C:\\Users\\Antec\\Desktop\\RestaurantManagement_FBMS_1_23_4_az\\DAL.SqlServer\\DAL.SqlServer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Antec\\Desktop\\RestaurantManagement\\Common\\Common.csproj": {
+    "C:\\Users\\Antec\\Desktop\\RestaurantManagement_FBMS_1_23_4_az\\DAL.SqlServer\\DAL.SqlServer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Antec\\Desktop\\RestaurantManagement\\Common\\Common.csproj",
-        "projectName": "Common",
-        "projectPath": "C:\\Users\\Antec\\Desktop\\RestaurantManagement\\Common\\Common.csproj",
-        "packagesPath": "C:\\Users\\Antec\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Antec\\Desktop\\RestaurantManagement\\Common\\obj\\",
-        "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
-        "configFilePaths": [
-          "C:\\Users\\Antec\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "net8.0"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net8.0": {
-            "targetAlias": "net8.0",
-            "projectReferences": {}
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.100"
-      },
-      "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "C:\\Users\\Antec\\Desktop\\RestaurantManagement\\DAL.SqlServer\\DAL.SqlServer.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\Antec\\Desktop\\RestaurantManagement\\DAL.SqlServer\\DAL.SqlServer.csproj",
+        "projectUniqueName": "C:\\Users\\Antec\\Desktop\\RestaurantManagement_FBMS_1_23_4_az\\DAL.SqlServer\\DAL.SqlServer.csproj",
         "projectName": "DAL.SqlServer",
-        "projectPath": "C:\\Users\\Antec\\Desktop\\RestaurantManagement\\DAL.SqlServer\\DAL.SqlServer.csproj",
+        "projectPath": "C:\\Users\\Antec\\Desktop\\RestaurantManagement_FBMS_1_23_4_az\\DAL.SqlServer\\DAL.SqlServer.csproj",
         "packagesPath": "C:\\Users\\Antec\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Antec\\Desktop\\RestaurantManagement\\DAL.SqlServer\\obj\\",
+        "outputPath": "C:\\Users\\Antec\\Desktop\\RestaurantManagement_FBMS_1_23_4_az\\DAL.SqlServer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -97,14 +32,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Antec\\Desktop\\RestaurantManagement\\Common\\Common.csproj": {
-                "projectPath": "C:\\Users\\Antec\\Desktop\\RestaurantManagement\\Common\\Common.csproj"
+              "C:\\Users\\Antec\\Desktop\\RestaurantManagement_FBMS_1_23_4_az\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\Antec\\Desktop\\RestaurantManagement_FBMS_1_23_4_az\\Domain\\Domain.csproj"
               },
-              "C:\\Users\\Antec\\Desktop\\RestaurantManagement\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\Antec\\Desktop\\RestaurantManagement\\Domain\\Domain.csproj"
-              },
-              "C:\\Users\\Antec\\Desktop\\RestaurantManagement\\Repository\\Repository.csproj": {
-                "projectPath": "C:\\Users\\Antec\\Desktop\\RestaurantManagement\\Repository\\Repository.csproj"
+              "C:\\Users\\Antec\\Desktop\\RestaurantManagement_FBMS_1_23_4_az\\Repository\\Repository.csproj": {
+                "projectPath": "C:\\Users\\Antec\\Desktop\\RestaurantManagement_FBMS_1_23_4_az\\Repository\\Repository.csproj"
               }
             }
           }
@@ -158,14 +90,14 @@
         }
       }
     },
-    "C:\\Users\\Antec\\Desktop\\RestaurantManagement\\Domain\\Domain.csproj": {
+    "C:\\Users\\Antec\\Desktop\\RestaurantManagement_FBMS_1_23_4_az\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Antec\\Desktop\\RestaurantManagement\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Antec\\Desktop\\RestaurantManagement_FBMS_1_23_4_az\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\Antec\\Desktop\\RestaurantManagement\\Domain\\Domain.csproj",
+        "projectPath": "C:\\Users\\Antec\\Desktop\\RestaurantManagement_FBMS_1_23_4_az\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\Antec\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Antec\\Desktop\\RestaurantManagement\\Domain\\obj\\",
+        "outputPath": "C:\\Users\\Antec\\Desktop\\RestaurantManagement_FBMS_1_23_4_az\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -223,14 +155,14 @@
         }
       }
     },
-    "C:\\Users\\Antec\\Desktop\\RestaurantManagement\\Repository\\Repository.csproj": {
+    "C:\\Users\\Antec\\Desktop\\RestaurantManagement_FBMS_1_23_4_az\\Repository\\Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Antec\\Desktop\\RestaurantManagement\\Repository\\Repository.csproj",
+        "projectUniqueName": "C:\\Users\\Antec\\Desktop\\RestaurantManagement_FBMS_1_23_4_az\\Repository\\Repository.csproj",
         "projectName": "Repository",
-        "projectPath": "C:\\Users\\Antec\\Desktop\\RestaurantManagement\\Repository\\Repository.csproj",
+        "projectPath": "C:\\Users\\Antec\\Desktop\\RestaurantManagement_FBMS_1_23_4_az\\Repository\\Repository.csproj",
         "packagesPath": "C:\\Users\\Antec\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Antec\\Desktop\\RestaurantManagement\\Repository\\obj\\",
+        "outputPath": "C:\\Users\\Antec\\Desktop\\RestaurantManagement_FBMS_1_23_4_az\\Repository\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -251,8 +183,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Antec\\Desktop\\RestaurantManagement\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\Antec\\Desktop\\RestaurantManagement\\Domain\\Domain.csproj"
+              "C:\\Users\\Antec\\Desktop\\RestaurantManagement_FBMS_1_23_4_az\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\Antec\\Desktop\\RestaurantManagement_FBMS_1_23_4_az\\Domain\\Domain.csproj"
               }
             }
           }

@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Antec\\Desktop\\RestaurantManagement\\Common\\Common.csproj",
+      "projectUniqueName": "C:\\Users\\Antec\\Desktop\\RestaurantManagement_FBMS_1_23_4_az\\Common\\Common.csproj",
       "projectName": "Common",
-      "projectPath": "C:\\Users\\Antec\\Desktop\\RestaurantManagement\\Common\\Common.csproj",
+      "projectPath": "C:\\Users\\Antec\\Desktop\\RestaurantManagement_FBMS_1_23_4_az\\Common\\Common.csproj",
       "packagesPath": "C:\\Users\\Antec\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Antec\\Desktop\\RestaurantManagement\\Common\\obj\\",
+      "outputPath": "C:\\Users\\Antec\\Desktop\\RestaurantManagement_FBMS_1_23_4_az\\Common\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

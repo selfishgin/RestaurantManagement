@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "RFaMBkMhYzk=",
+  "dgSpecHash": "xiDKgO04E4Y=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Antec\\Desktop\\RestaurantManagement\\RestaurantManagement\\RestaurantManagement.csproj",
+  "projectFilePath": "C:\\Users\\Antec\\Desktop\\RestaurantManagement_FBMS_1_23_4_az\\RestaurantManagement\\RestaurantManagement.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Antec\\.nuget\\packages\\automapper\\14.0.0\\automapper.14.0.0.nupkg.sha512",
     "C:\\Users\\Antec\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/AwYf6dUp8U=",
+  "dgSpecHash": "gJ8EgffgZR4=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Antec\\Desktop\\RestaurantManagement\\Application\\Application.csproj",
+  "projectFilePath": "C:\\Users\\Antec\\Desktop\\RestaurantManagement_FBMS_1_23_4_az\\Application\\Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Antec\\.nuget\\packages\\automapper\\14.0.0\\automapper.14.0.0.nupkg.sha512",
     "C:\\Users\\Antec\\.nuget\\packages\\fluentvalidation\\11.11.0\\fluentvalidation.11.11.0.nupkg.sha512",

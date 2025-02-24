@@ -14,7 +14,7 @@ public class MappingProfile:Profile
         CreateMap<User, GetByIdDto>().ReverseMap();
         CreateMap<Command, User>().ReverseMap();
         CreateMap<User, RegisterDto>().ReverseMap();
-
+        CreateMap<User, UpdateDto>();
 
         CreateMap<Category , CreateCategoryRequest>().ReverseMap();
         CreateMap<CreateCategoryResponse, Category>().ReverseMap();
