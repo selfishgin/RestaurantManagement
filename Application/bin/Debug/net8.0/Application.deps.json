@@ -112,18 +112,12 @@
       },
       "Common/1.0.0": {
         "runtime": {
-          "Common.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "Common.dll": {}
         }
       },
       "Domain/1.0.0": {
         "runtime": {
-          "Domain.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "Domain.dll": {}
         }
       },
       "Repository/1.0.0": {
@@ -131,10 +125,7 @@
           "Domain": "1.0.0"
         },
         "runtime": {
-          "Repository.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "Repository.dll": {}
         }
       }
     }

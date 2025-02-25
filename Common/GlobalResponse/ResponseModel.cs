@@ -1,4 +1,4 @@
-﻿namespace Common.GlobalRespons;
+﻿namespace Common.GlobalResponse;
 
 public class ResponseModel
 {

@@ -3,7 +3,7 @@ using static Application.CQRS.Users.Handlers.Update;
 
 namespace Application.CQRS.Users.Validators;
 
-public class UpdateUserValidator : AbstractValidator<Command>
+public class UpdateUserValidator : AbstractValidator<UpdateCommand>
 {
     public UpdateUserValidator()
     {

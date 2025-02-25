@@ -1,7 +1,7 @@
 ﻿using Application.CQRS.Users.DTOs;
 using AutoMapper;
 using Common.Exceptions;
-using Common.GlobalResopnses.Generics;
+using Common.GlobalResponse.Generics;
 using Common.Security;
 using Domain.Entites;
 using MediatR;
@@ -11,9 +11,9 @@ namespace Application.CQRS.Users.Handlers;
 
 public class Register
 {
-    public record struct Command : IRequest<ResponseModel<RegisterDto>>
+    public record struct RegisterCommand : IRequest<ResponseModel<RegisterDto>>
     {
-        public Command(string name, string surname, string email, string phone, string password)
+        public RegisterCommand(string name, string surname, string email, string phone, string password)
         {
             Name = name;
             Surname = surname;
@@ -29,12 +29,12 @@ public class Register
         public string Password { get; set; }
     }
 
-    public sealed class Handler(IUnitOfWork unitOfWork, IMapper mapper) : IRequestHandler<Command, ResponseModel<RegisterDto>>
+    public sealed class Handler(IUnitOfWork unitOfWork, IMapper mapper) : IRequestHandler<RegisterCommand, ResponseModel<RegisterDto>>
     {
         private readonly IUnitOfWork _unitOfWork = unitOfWork;
         private readonly IMapper _mapper = mapper;
 
-        public async Task<ResponseModel<RegisterDto>> Handle(Command request, CancellationToken cancellationToken)
+        public async Task<ResponseModel<RegisterDto>> Handle(RegisterCommand request, CancellationToken cancellationToken)
         {
             var currentUser = await _unitOfWork.UserRepository.GetByEmailAsync(request.Email);
             if (currentUser != null) throw new BadRequestException("User already exist with provided email");

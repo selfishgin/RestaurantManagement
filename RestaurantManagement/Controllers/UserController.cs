@@ -4,6 +4,8 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using static Application.CQRS.Users.Handlers.GetById;
 using static Application.CQRS.Users.Handlers.Register;
+using static Application.CQRS.Users.Handlers.Update;
+
 
 namespace RestaurantManagement.Controllers;
 
@@ -22,7 +24,7 @@ public class UserController(ISender sender) : ControllerBase
 
 
     [HttpPost]
-    public async Task<IActionResult> Register([FromBody] Command request)
+    public async Task<IActionResult> Register([FromBody] RegisterCommand request)
     {
         return Ok(await _sender.Send(request));
     }
@@ -36,7 +38,7 @@ public class UserController(ISender sender) : ControllerBase
     }
 
     [HttpPut]
-    public async Task<IActionResult> Update([FromBody] Update.Command request)
+    public async Task<IActionResult> Update([FromBody] UpdateCommand request)
     {
         return Ok(await _sender.Send(request));
     }

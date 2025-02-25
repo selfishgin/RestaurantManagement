@@ -3,7 +3,7 @@ using static Application.CQRS.Users.Handlers.Register;
 
 namespace Application.CQRS.Users.Validators;
 
-public class RegisterUserValidator : AbstractValidator<Command>
+public class RegisterUserValidator : AbstractValidator<RegisterCommand>
 {
     public RegisterUserValidator()
     {

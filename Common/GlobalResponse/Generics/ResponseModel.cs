@@ -1,4 +1,4 @@
-﻿using Common.GlobalRespons;
+﻿using Common.GlobalResponse;
 using System;
 using System.Collections.Generic;
 using System.Linq;

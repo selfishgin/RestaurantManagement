@@ -1,5 +1,5 @@
 ﻿using Application.CQRS.Categories.Queries.Responses;
-using Common.GlobalResopnses.Generics;
+using Common.GlobalResponse.Generics;
 using MediatR;
 
 namespace Application.CQRS.Categories.Queries.Requests;

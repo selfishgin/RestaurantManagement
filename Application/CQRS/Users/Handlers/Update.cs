@@ -1,18 +1,19 @@
 ﻿using Application.CQRS.Users.DTOs;
 using AutoMapper;
 using Common.Exceptions;
-using Common.GlobalResopnses;
-using Common.GlobalResopnses.Generics;
+using Common.GlobalResponse;
+using Common.GlobalResponse.Generics;
 using MediatR;
 using Repository.Common;
 using System.Numerics;
 using System.Runtime.InteropServices.Marshalling;
+using Common.GlobalResponse.Generics;
 
 namespace Application.CQRS.Users.Handlers;
 
 public class Update
 {
-    public record struct Command:IRequest<ResponseModel<UpdateDto>>
+    public record struct UpdateCommand:IRequest<ResponseModel<UpdateDto>>
     {
         public int Id {  get; set; }
         public string Name { get; set; }
@@ -24,11 +25,11 @@ public class Update
     }
 
 
-    public sealed class Handler(IUnitOfWork unitOfWork, IMapper mapper) : IRequestHandler<Command, ResponseModel<UpdateDto>>
+    public sealed class Handler(IUnitOfWork unitOfWork, IMapper mapper) : IRequestHandler<UpdateCommand, ResponseModel<UpdateDto>>
     {
         private readonly IUnitOfWork _unitOfWork = unitOfWork;
         private readonly IMapper _mapper = mapper;
-        public async Task<ResponseModel<UpdateDto>> Handle(Command request, CancellationToken cancellationToken)
+        public async Task<ResponseModel<UpdateDto>> Handle(UpdateCommand request, CancellationToken cancellationToken)
         {
             var currentUser = await _unitOfWork.UserRepository.GetByIdAsync(request.Id);
             if (currentUser == null) 

@@ -1,6 +1,6 @@
 ﻿using Application.CQRS.Categories.Queries.Requests;
 using Application.CQRS.Categories.Queries.Responses;
-using Common.GlobalResopnses.Generics;
+using Common.GlobalResponse.Generics;
 using MediatR;
 using Repository.Common;
 

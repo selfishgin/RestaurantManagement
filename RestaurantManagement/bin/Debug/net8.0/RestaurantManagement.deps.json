@@ -171,22 +171,22 @@
           "runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.dll": {
             "rid": "win-arm",
             "assetType": "native",
-            "fileVersion": "5.1.0.0"
+            "fileVersion": "0.0.0.0"
           },
           "runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll": {
             "rid": "win-arm64",
             "assetType": "native",
-            "fileVersion": "5.1.0.0"
+            "fileVersion": "0.0.0.0"
           },
           "runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll": {
             "rid": "win-x64",
             "assetType": "native",
-            "fileVersion": "5.1.0.0"
+            "fileVersion": "0.0.0.0"
           },
           "runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll": {
             "rid": "win-x86",
             "assetType": "native",
-            "fileVersion": "5.1.0.0"
+            "fileVersion": "0.0.0.0"
           }
         }
       },
@@ -625,18 +625,12 @@
           "Repository": "1.0.0"
         },
         "runtime": {
-          "Application.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "Application.dll": {}
         }
       },
       "Common/1.0.0": {
         "runtime": {
-          "Common.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "Common.dll": {}
         }
       },
       "DAL.SqlServer/1.0.0": {
@@ -648,18 +642,12 @@
           "Repository": "1.0.0"
         },
         "runtime": {
-          "DAL.SqlServer.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "DAL.SqlServer.dll": {}
         }
       },
       "Domain/1.0.0": {
         "runtime": {
-          "Domain.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "Domain.dll": {}
         }
       },
       "Repository/1.0.0": {
@@ -667,10 +655,7 @@
           "Domain": "1.0.0"
         },
         "runtime": {
-          "Repository.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "Repository.dll": {}
         }
       }
     }

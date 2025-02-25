@@ -2,7 +2,7 @@
 using AutoMapper;
 using AutoMapper.Internal.Mappers;
 using Common.Exceptions;
-using Common.GlobalResopnses.Generics;
+using Common.GlobalResponse.Generics;
 using MediatR;
 using Repository.Common;
 
