@@ -1,4 +1,5 @@
 ﻿using Application.AutoMapper;
+using Application.Services.BackgroundServices;
 using AutoMapper;
 using FluentValidation;
 using MediatR;
@@ -26,6 +27,9 @@ public static class DependencyInjections
         services.AddMediatR(Assembly.GetExecutingAssembly());
 
         services.AddTransient(typeof(IPipelineBehavior<,>) , typeof(ValidationPipelineBehavior<,>));
+
+        services.AddHostedService<DeleteUserBackgroundService>();
+
 
         return services;
     }

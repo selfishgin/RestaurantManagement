@@ -2729,35 +2729,43 @@
     ]
   },
   "packageFolders": {
-    "/Users/ahmedhuseynli/.nuget/packages/": {}
+    "C:\\Users\\Husey_ij91\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/ahmedhuseynli/Desktop/RestaurantManagement/DAL.SqlServer/DAL.SqlServer.csproj",
+      "projectUniqueName": "C:\\Users\\Husey_ij91\\Desktop\\RestaurantManagement\\DAL.SqlServer\\DAL.SqlServer.csproj",
       "projectName": "DAL.SqlServer",
-      "projectPath": "/Users/ahmedhuseynli/Desktop/RestaurantManagement/DAL.SqlServer/DAL.SqlServer.csproj",
-      "packagesPath": "/Users/ahmedhuseynli/.nuget/packages/",
-      "outputPath": "/Users/ahmedhuseynli/Desktop/RestaurantManagement/DAL.SqlServer/obj/",
+      "projectPath": "C:\\Users\\Husey_ij91\\Desktop\\RestaurantManagement\\DAL.SqlServer\\DAL.SqlServer.csproj",
+      "packagesPath": "C:\\Users\\Husey_ij91\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Husey_ij91\\Desktop\\RestaurantManagement\\DAL.SqlServer\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "/Users/ahmedhuseynli/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\Husey_ij91\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "/Users/ahmedhuseynli/Desktop/RestaurantManagement/Domain/Domain.csproj": {
-              "projectPath": "/Users/ahmedhuseynli/Desktop/RestaurantManagement/Domain/Domain.csproj"
+            "C:\\Users\\Husey_ij91\\Desktop\\RestaurantManagement\\Domain\\Domain.csproj": {
+              "projectPath": "C:\\Users\\Husey_ij91\\Desktop\\RestaurantManagement\\Domain\\Domain.csproj"
             },
-            "/Users/ahmedhuseynli/Desktop/RestaurantManagement/Repository/Repository.csproj": {
-              "projectPath": "/Users/ahmedhuseynli/Desktop/RestaurantManagement/Repository/Repository.csproj"
+            "C:\\Users\\Husey_ij91\\Desktop\\RestaurantManagement\\Repository\\Repository.csproj": {
+              "projectPath": "C:\\Users\\Husey_ij91\\Desktop\\RestaurantManagement\\Repository\\Repository.csproj"
             }
           }
         }
@@ -2806,7 +2814,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.303/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
