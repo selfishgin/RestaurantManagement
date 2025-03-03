@@ -24,6 +24,7 @@ builder.Services.AddAutoMapper(typeof(MappingProfile).Assembly);
 
 var conn = builder.Configuration.GetConnectionString("myconn");
 builder.Services.AddSqlServerServices(conn);
+builder.Services.AddApplicationServices();
 
 
 
