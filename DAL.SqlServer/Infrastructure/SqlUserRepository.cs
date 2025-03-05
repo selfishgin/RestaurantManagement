@@ -1,5 +1,5 @@
 ﻿using DAL.SqlServer.Context;
-using Domain.Entites;
+using Domain.Entities;
 using Microsoft.EntityFrameworkCore;
 using Repository.Repositories;
 

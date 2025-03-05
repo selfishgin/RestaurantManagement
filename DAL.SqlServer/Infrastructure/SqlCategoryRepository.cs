@@ -1,6 +1,6 @@
 ﻿using DAL.SqlServer.Context;
 using Dapper;
-using Domain.Entites;
+using Domain.Entities;
 using Repository.Repositories;
 
 namespace DAL.SqlServer.Infrastructure;

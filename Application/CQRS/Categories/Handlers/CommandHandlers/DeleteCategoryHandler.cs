@@ -2,7 +2,7 @@
 using Application.CQRS.Categories.Commands.Responses;
 using Common.Exceptions;
 using Common.GlobalResponse.Generics;
-using Domain.Entites;
+using Domain.Entities;
 using MediatR;
 using Repository.Common;
 

@@ -29,7 +29,7 @@ public class GetAllCategoryHandler(IUnitOfWork unitOfWork) : IRequestHandler<Get
             {
                 Id = category.Id,
                 Name = category.Name,
-                CreatedDate = category.CreatedDate??DateTime.MinValue,
+                CreatedDate = category.CreatedDate ?? DateTime.MinValue,
                 DeletedDate = category.DeletedDate ?? DateTime.MinValue,
                 UpdatedDate = category?.UpdatedDate ?? DateTime.MinValue,
             };

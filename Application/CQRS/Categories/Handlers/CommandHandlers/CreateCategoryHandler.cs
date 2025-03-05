@@ -2,7 +2,7 @@
 using Application.CQRS.Categories.Commands.Responses;
 using AutoMapper;
 using Common.GlobalResponse.Generics;
-using Domain.Entites;
+using Domain.Entities;
 using FluentValidation;
 using MediatR;
 using Repository.Common;

@@ -1,4 +1,4 @@
-﻿using Domain.Entites;
+﻿using Domain.Entities;
 using Microsoft.EntityFrameworkCore;
 
 namespace DAL.SqlServer.Context;
@@ -12,4 +12,5 @@ public class AppDbContext : DbContext
 
     public DbSet<Category> Categories { get; set; }
     public DbSet<User> Users { get; set; }
+    public DbSet<Product> Products { get; set; }
 }

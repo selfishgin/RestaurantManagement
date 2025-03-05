@@ -2,7 +2,7 @@
 using Common.Exceptions;
 using Common.GlobalResponse.Generics;
 using Common.Security;
-using Domain.Entites;
+using Domain.Entities;
 using MediatR;
 using Microsoft.Extensions.Configuration;
 using Repository.Common;

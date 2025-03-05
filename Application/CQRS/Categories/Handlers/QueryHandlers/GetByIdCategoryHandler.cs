@@ -1,7 +1,7 @@
 ﻿using Application.CQRS.Categories.Queries.Requests;
 using Application.CQRS.Categories.Queries.Responses;
 using Common.GlobalResponse.Generics;
-using Domain.Entites;
+using Domain.Entities;
 using MediatR;
 using Repository.Common;
 

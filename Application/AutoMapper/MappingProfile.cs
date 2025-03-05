@@ -2,7 +2,7 @@
 using Application.CQRS.Categories.Commands.Responses;
 using Application.CQRS.Users.DTOs;
 using AutoMapper;
-using Domain.Entites;
+using Domain.Entities;
 using static Application.CQRS.Users.Handlers.Register;
 using static Application.CQRS.Users.Handlers.Update;
 
