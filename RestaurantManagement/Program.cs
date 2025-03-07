@@ -6,6 +6,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Repository.Common;
 using Application;
 using Application.Services.BackgroundServices;
+using RestaurantManagement.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -19,7 +20,7 @@ builder.Services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
 builder.Services.AddApplicationServices();
 
 builder.Services.AddMediatR(typeof(Application.CQRS.Users.Handlers.Register.Handler).Assembly);
-
+builder.Services.AddAuthenticationService(builder.Configuration);
 builder.Services.AddAutoMapper(typeof(MappingProfile).Assembly);
 
 var conn = builder.Configuration.GetConnectionString("myconn");
