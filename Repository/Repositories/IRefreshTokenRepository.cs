@@ -1,8 +1,8 @@
-﻿using Domain.Entities;
+﻿using Domain.Entites;
 
 namespace Repository.Repositories;
 
-public interface IRefreshTokenRepository
+public interface IRefreshtokenRepository
 {
 	Task<RefreshToken> GetStoredRefreshToken(string refreshToken);
 	Task SaveRefreshToken(RefreshToken refreshToken);

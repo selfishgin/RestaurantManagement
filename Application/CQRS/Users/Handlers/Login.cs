@@ -3,7 +3,9 @@ using Application.Services;
 using Common.Exceptions;
 using Common.GlobalResponse.Generics;
 using Common.Security;
+using Domain.Entites;
 using Domain.Entities;
+using Domain.Enum;
 using MediatR;
 using Microsoft.Extensions.Configuration;
 using Repository.Common;
@@ -23,7 +25,7 @@ public class Login
 	public sealed class Handler(IUnitOfWork unitOfWork, IConfiguration configuration) : IRequestHandler<LoginRequest, ResponseModel<LoginResponseDto>>
 	{
 		private readonly IUnitOfWork _unitOfWork = unitOfWork;
-		private readonly IConfiguration _configuration = configuration;
+
 
 		public async Task<ResponseModel<LoginResponseDto>> Handle(LoginRequest request, CancellationToken cancellationToken)
 		{
@@ -34,19 +36,28 @@ public class Login
 			if (hashedPassword != currentUser.PasswordHash)
 				throw new BadRequestException("Wrong password!");
 
-
 			List<Claim> authClaim = [
 				new Claim(ClaimTypes.NameIdentifier , currentUser.Id.ToString()),
 				new Claim(ClaimTypes.Name , currentUser.Name),
 				new Claim(ClaimTypes.Email , currentUser.Email),
 				new Claim(ClaimTypes.MobilePhone , currentUser.Phone),
+				new Claim(ClaimTypes.Role, currentUser.Roles.ToString())
 				];
 
-			JwtSecurityToken token = TokenService.CreateToken(authClaim, _configuration);
+			JwtSecurityToken token = TokenService.CreateToken(authClaim, configuration);
 			string tokenString = new JwtSecurityTokenHandler().WriteToken(token);
 
-
 			string refreshTokenString = TokenService.GenerateRefreshToken();
+
+			RefreshToken refreshToken = new()
+			{
+				Token = refreshTokenString,
+				UserId = currentUser.Id,
+				ExpirationDate = DateTime.Now.AddDays(Double.Parse(configuration.GetRequiredSection("JWT:RefreshTokenExpirationDays").Value!)),
+			};
+
+			await _unitOfWork.RefreshTokenRepository.SaveRefreshToken(refreshToken);
+			await _unitOfWork.SaveChanges();
 
 			LoginResponseDto response = new()
 			{

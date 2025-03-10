@@ -19,27 +19,14 @@ public static class TokenService
 			claims: authClaims,
 			expires: DateTime.Now.AddMinutes(Double.Parse(configuration.GetRequiredSection("JWT:AccessTokenExpirationMinutes").Value!)),
 			signingCredentials: new SigningCredentials(authSigninKey, SecurityAlgorithms.HmacSha256));
-
 		return token;
-			
-			
 	}
 
 	public static string GenerateRefreshToken()
 	{
 		var randomNumber = new byte[32];
-		using (var rng = RandomNumberGenerator.Create())
-		{
-			rng.GetBytes(randomNumber);
-			return Convert.ToBase64String(randomNumber);
-		}
+		using var rng = RandomNumberGenerator.Create();
+		rng.GetBytes(randomNumber);
+		return Convert.ToBase64String(randomNumber);
 	}
-
-
-
-
-
-
-
-
 }

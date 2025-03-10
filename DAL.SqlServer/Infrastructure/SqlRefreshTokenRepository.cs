@@ -1,19 +1,19 @@
 ﻿using DAL.SqlServer.Context;
-using Domain.Entities;
+using Domain.Entites;
+using Microsoft.EntityFrameworkCore;
 using Repository.Repositories;
 
 namespace DAL.SqlServer.Infrastructure;
 
-public class SqlRefreshTokenRepository(AppDbContext context) : IRefreshTokenRepository
+public class SqlRefreshTokenRepository(AppDbContext context) : IRefreshtokenRepository
 {
-	private readonly AppDbContext _context = context;
 	public async Task<RefreshToken> GetStoredRefreshToken(string refreshToken)
 	{
 		return await context.RefreshTokens.FirstOrDefaultAsync(rt => rt.Token == refreshToken);
 	}
 
-	public Task SaveRefreshToken(RefreshToken refreshToken)
+	public async Task SaveRefreshToken(RefreshToken refreshToken)
 	{
-		throw new NotImplementedException();
+		await context.RefreshTokens.AddAsync(refreshToken);
 	}
 }
