@@ -1,5 +1,6 @@
 ﻿using Application.CQRS.Users.DTOs;
 using Application.Services;
+using Application.Services.LogService;
 using Common.Exceptions;
 using Common.GlobalResponse.Generics;
 using Common.Security;
@@ -22,19 +23,29 @@ public class Login
 		public string Password { get; set; }
 	}
 
-	public sealed class Handler(IUnitOfWork unitOfWork, IConfiguration configuration) : IRequestHandler<LoginRequest, ResponseModel<LoginResponseDto>>
+	public sealed class Handler(IUnitOfWork unitOfWork, IConfiguration configuration, ILoggerService logService) : IRequestHandler<LoginRequest, ResponseModel<LoginResponseDto>>
 	{
 		private readonly IUnitOfWork _unitOfWork = unitOfWork;
 
 
 		public async Task<ResponseModel<LoginResponseDto>> Handle(LoginRequest request, CancellationToken cancellationToken)
 		{
-			User currentUser = await _unitOfWork.UserRepository.GetByEmailAsync(request.Email) ?? throw new BadRequestException("User does not exist with provided email");
+			logService.LogInfo($"{request.Email} ile sisteme giris etmek istedi.");
+			User currentUser = await _unitOfWork.UserRepository.GetByEmailAsync(request.Email);
+			
+			if (currentUser == null)
+			{
+				logService.LogWarning($"{request.Email} ile istifadeci movcud deyil.");
+				throw new BadRequestException("User does not exist with provided email");
+			}
 
 			var hashedPassword = PasswordHasher.ComputeStringToSha256Hash(request.Password);
 
 			if (hashedPassword != currentUser.PasswordHash)
+			{
+				logService.LogWarning($@"{currentUser.Email} terefinden yalnis password daxil edildi");
 				throw new BadRequestException("Wrong password!");
+			}
 
 			List<Claim> authClaim = [
 				new Claim(ClaimTypes.NameIdentifier , currentUser.Id.ToString()),
@@ -65,6 +76,7 @@ public class Login
 				RefreshToken = refreshTokenString
 			};
 
+			logService.LogInfo($"{request.Email} terefinden sisteme giris edildi.");
 			return new ResponseModel<LoginResponseDto> { Data = response };
 		}
 	}

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "1JvfEUK4WuC2+hj14GG6eiJRn8D+kNdeuAf7PUWyS14kkzoVkHgYgGE7naVzE5GubRMlvUgK3tjQx4wAojyALg==",
+  "dgSpecHash": "wXZr765TvMidieVTeek7kmwNTbGNOVGpk7TtLASHPddTr8THhv8O9A9ZtPoyk+XHB/TxB0P6n+JtHbNVvWuK6g==",
   "success": true,
   "projectFilePath": "C:\\Users\\Husey_ij91\\Desktop\\RestaurantManagement\\RestaurantManagement\\RestaurantManagement.csproj",
   "expectedPackageFiles": [
@@ -47,6 +47,8 @@
     "C:\\Users\\Husey_ij91\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
     "C:\\Users\\Husey_ij91\\.nuget\\packages\\microsoft.sqlserver.server\\1.0.0\\microsoft.sqlserver.server.1.0.0.nupkg.sha512",
     "C:\\Users\\Husey_ij91\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
+    "C:\\Users\\Husey_ij91\\.nuget\\packages\\serilog\\4.2.0\\serilog.4.2.0.nupkg.sha512",
+    "C:\\Users\\Husey_ij91\\.nuget\\packages\\serilog.sinks.file\\6.0.0\\serilog.sinks.file.6.0.0.nupkg.sha512",
     "C:\\Users\\Husey_ij91\\.nuget\\packages\\swashbuckle.aspnetcore\\6.4.0\\swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
     "C:\\Users\\Husey_ij91\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.4.0\\swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
     "C:\\Users\\Husey_ij91\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.4.0\\swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",

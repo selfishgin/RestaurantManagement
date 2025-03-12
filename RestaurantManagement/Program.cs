@@ -1,8 +1,10 @@
 using Application;
 using Application.AutoMapper;
+using Application.Security;
 using DAL.SqlServer;// Contains AddSqlServerServices extension and UnitOfWork
 using MediatR;
 using Microsoft.AspNetCore.Cors.Infrastructure;
+using RestaurantManagement.Infrastructure;
 using RestaurantManagement.Middlewares;
 using RestaurantManagement.Services;
 
@@ -14,6 +16,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 builder.Services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
+builder.Services.AddScoped<IUserContext, HttpUserContext>();
 builder.Services.AddApplicationServices();
 builder.Services.AddMediatR(typeof(Application.CQRS.Users.Handlers.Register.Handler).Assembly);
 builder.Services.AddAuthenticationService(builder.Configuration);

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "IMrs1zlyI+2L2rywNLEvIqJRh3cERquA8QjCBOr+sneaEvoYq9IsSymcOSSbcRtQOnZ7HjbcB0JIjEitVP1ViQ==",
+  "dgSpecHash": "ePTglJcynnkhoVsAiJEG3C6XOQY0Xpgjz3EjEChkCSYwT328sN/dadsNhOiqq9gzOrM36HaDmNcQZnp6WWhN6w==",
   "success": true,
   "projectFilePath": "C:\\Users\\Husey_ij91\\Desktop\\RestaurantManagement\\Application\\Application.csproj",
   "expectedPackageFiles": [
@@ -23,6 +23,8 @@
     "C:\\Users\\Husey_ij91\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\8.6.0\\microsoft.identitymodel.jsonwebtokens.8.6.0.nupkg.sha512",
     "C:\\Users\\Husey_ij91\\.nuget\\packages\\microsoft.identitymodel.logging\\8.6.0\\microsoft.identitymodel.logging.8.6.0.nupkg.sha512",
     "C:\\Users\\Husey_ij91\\.nuget\\packages\\microsoft.identitymodel.tokens\\8.6.0\\microsoft.identitymodel.tokens.8.6.0.nupkg.sha512",
+    "C:\\Users\\Husey_ij91\\.nuget\\packages\\serilog\\4.2.0\\serilog.4.2.0.nupkg.sha512",
+    "C:\\Users\\Husey_ij91\\.nuget\\packages\\serilog.sinks.file\\6.0.0\\serilog.sinks.file.6.0.0.nupkg.sha512",
     "C:\\Users\\Husey_ij91\\.nuget\\packages\\system.diagnostics.diagnosticsource\\9.0.2\\system.diagnostics.diagnosticsource.9.0.2.nupkg.sha512",
     "C:\\Users\\Husey_ij91\\.nuget\\packages\\system.identitymodel.tokens.jwt\\8.6.0\\system.identitymodel.tokens.jwt.8.6.0.nupkg.sha512"
   ],

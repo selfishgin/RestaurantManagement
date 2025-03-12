@@ -277,3 +277,5 @@ C:\Users\Husey_ij91\Desktop\RestaurantManagement\RestaurantManagement\bin\Debug\
 C:\Users\Husey_ij91\Desktop\RestaurantManagement\RestaurantManagement\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
 C:\Users\Husey_ij91\Desktop\RestaurantManagement\RestaurantManagement\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\Husey_ij91\Desktop\RestaurantManagement\RestaurantManagement\bin\Debug\net8.0\Microsoft.Bcl.Memory.dll
+C:\Users\Husey_ij91\Desktop\RestaurantManagement\RestaurantManagement\bin\Debug\net8.0\Serilog.dll
+C:\Users\Husey_ij91\Desktop\RestaurantManagement\RestaurantManagement\bin\Debug\net8.0\Serilog.Sinks.File.dll
