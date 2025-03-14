@@ -1,4 +1,5 @@
 ﻿using Application.AutoMapper;
+using Application.CQRS.Cars;
 using Application.Services.BackgroundServices;
 using Application.Services.LogService;
 using AutoMapper;
@@ -43,9 +44,12 @@ public static class DependencyInjections
 
         services.AddTransient(typeof(IPipelineBehavior<,>) , typeof(ValidationPipelineBehavior<,>));
 
-      //  services.AddHostedService<DeleteUserBackgroundService>();
+		//  services.AddHostedService<DeleteUserBackgroundService>();
 
 
-        return services;
+
+
+
+		return services;
     }
 }

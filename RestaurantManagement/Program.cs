@@ -1,5 +1,6 @@
 using Application;
 using Application.AutoMapper;
+using Application.CQRS.Cars;
 using Application.Security;
 using DAL.SqlServer;// Contains AddSqlServerServices extension and UnitOfWork
 using MediatR;
@@ -17,6 +18,7 @@ builder.Services.AddSwaggerGen();
 
 builder.Services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
 builder.Services.AddScoped<IUserContext, HttpUserContext>();
+builder.Services.AddSingleton<CarService>(); 
 builder.Services.AddApplicationServices();
 builder.Services.AddMediatR(typeof(Application.CQRS.Users.Handlers.Register.Handler).Assembly);
 builder.Services.AddAuthenticationService(builder.Configuration);
@@ -27,6 +29,7 @@ builder.Services.AddAutoMapper(typeof(MappingProfile).Assembly);
 var conn = builder.Configuration.GetConnectionString("myconn");
 builder.Services.AddSqlServerServices(conn);
 builder.Services.AddApplicationServices();
+          
 
 var app = builder.Build();
 
