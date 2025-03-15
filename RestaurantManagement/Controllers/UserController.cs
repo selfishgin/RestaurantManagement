@@ -3,6 +3,7 @@ using MediatR;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using static Application.CQRS.Users.Handlers.GetById;
+using static Application.CQRS.Users.Handlers.RefreshTokenService;
 using static Application.CQRS.Users.Handlers.Register;
 using static Application.CQRS.Users.Handlers.Update;
 
@@ -17,6 +18,7 @@ public class UserController(ISender sender) : ControllerBase
 	private readonly ISender _sender = sender;
 
 	[HttpGet]
+	[AllowAnonymous]
 	public async Task<IActionResult> GetById([FromQuery] int id)
 	{
 		var request = new Query() { Id = id };
@@ -25,7 +27,7 @@ public class UserController(ISender sender) : ControllerBase
 
 
 	[HttpPost]
-	[Authorize(Roles = "Admin")]
+	[AllowAnonymous]
 	public async Task<IActionResult> Register([FromBody] RegisterCommand request)
 	{
 		return Ok(await _sender.Send(request));
@@ -51,5 +53,15 @@ public class UserController(ISender sender) : ControllerBase
 	{
 		return Ok(await _sender.Send(request));
 	}
+
+
+	[HttpPost("RefreshToken")]
+	public async Task<IActionResult> RefreshToken([FromBody] RefreshTokenRequest request)
+	{
+		return Ok(await _sender.Send(request));
+	}
+
+
+
 
 }

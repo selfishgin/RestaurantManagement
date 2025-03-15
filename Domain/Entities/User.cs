@@ -10,5 +10,5 @@ public class User:BaseEntity
 	public string Email { get; set; }
 	public string Phone { get; set; }
 	public string PasswordHash { get; set; }
-	public UserRoles Roles { get; set; }
+	public UserRoles? Roles { get; set; }
 }
